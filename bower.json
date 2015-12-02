@@ -1,0 +1,11 @@
+{
+    "name": "webdev-font",
+    "version": "0.0.1",
+    "main":"css/webdev-font.css",
+    "ignore": [
+    	"bower.json",
+    	"readme.md",
+    	".gitignore",
+    	"index.html",
+    ]
+}

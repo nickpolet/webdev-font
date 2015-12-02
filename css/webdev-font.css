@@ -2,11 +2,11 @@
   font-family: "webdev-font";
   font-weight: normal;
   font-style: normal;
-  src: url('../font/webdev-font.eot');
-  src: url('../font/webdev-font.eot?#iefix') format('eot'),
-    url('../font/webdev-font.woff') format('woff'),
-    url('../font/webdev-font.ttf') format('truetype'),
-    url('../font/webdev-font.svg#webdev-font') format('svg');
+  src: url('../fonts/webdev-font.eot');
+  src: url('../fonts/webdev-font.eot?#iefix') format('eot'),
+    url('../fonts/webdev-font.woff') format('woff'),
+    url('../fonts/webdev-font.ttf') format('truetype'),
+    url('../fonts/webdev-font.svg#webdev-font') format('svg');
 }
 
 
