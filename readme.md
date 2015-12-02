@@ -1,6 +1,6 @@
-# Framefont
+# webdev-font
 
-### Icons for popular web frameworks and web related technologies
+### Icon font for popular web frameworks and web related technologies
 
 
 # Under Development
