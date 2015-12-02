@@ -7,14 +7,13 @@
 	<title>webdev-font</title>
 
 	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
-	<link href='https://fonts.googleapis.com/css?family=Raleway:400,300,200,500' rel='stylesheet' type='text/css'>
-
+<link href='https://fonts.googleapis.com/css?family=Lato:400,300,100,700' rel='stylesheet' type='text/css'>
 	<link rel="stylesheet" href="css/webdev-font.css">
 	
 	<style>
 
 		html, body {
-			font-family: 'Raleway', sans-serif;
+			font-family: 'Lato', sans-serif;
 			font-weight: 300;
 			font-size:1.1em;
 		}
@@ -31,6 +30,13 @@
 		a:hover {
 			color:#aaa;
 			text-decoration: none;
+		}
+
+		pre {
+			background: #333 !important;
+			color:#ddd !important;
+			border:0px !important;
+			font-size: 1em;
 		}
 
 		#github-link {
@@ -63,7 +69,7 @@
 		}
 
 		#splash-icons i {
-			font-size: 1.3em;
+			font-size: 2em;
 		}
 
 		.splash-icons-1 i {
@@ -95,19 +101,53 @@
 		}
 		#getting-started {
 			position: relative;
-			background: #666;
+			background: #4c4c4c;
 			color:#fff;
-			min-height:500px;
+			padding-bottom: 200px;
 		}
+
+		#getting-started h2 {
+			margin-top: 50px;
+		}
+
 
 		#getting-started h1 {
 			margin:0px;
 			padding: 50px 0px;
 		}
 
+		#usage {
+			position: relative;
+			background: #555;
+			color:#fff;
+			padding-bottom: 80px;
+			margin-bottom: 100px;
+		}
+
+		#usage h2 {
+			margin-top: 50px;
+		}
+
+
+		#usage h1 {
+			margin:0px;
+			padding: 50px 0px;
+		}
+
+		.usage-example, .usage-box {
+		}
+
+		.usage-box-icon {
+			font-size: 4em;
+		}
+
+		.usage-grey-text {
+			color:#999;
+		}
+
 		.icon-holder i {
 			color:#444;
-			font-size: 2em;
+			font-size: 5em;
 			display:block;
 		}
 
@@ -144,10 +184,41 @@
 			color:#888;
 		}
 
+
+		#small-format {
+			color:#aaa;
+			font-size:1.4em;
+		}
+
+
+		.small-format-box {
+			padding:6px;
+		}
+		
+		.small-format-box i {
+			color:#444;
+			margin-right: 5px;
+		}
+
+		.small-format-box:hover {
+			background: #444;
+			color:#fff !important;
+		}
+
+		.small-format-box:hover i {
+			color:#fff;
+		}
+
+		.inverted i {
+			color:#fff;
+		}
+
 		#footer {
 			width:100%;
 			padding:100px 0px;
 			text-align: center;
+			background: #444;
+			color:#fff;
 		}
 	</style>
 </head>
@@ -220,24 +291,123 @@
 
 <div id='getting-started'>
 	
-	<h1 class='text-center'>Usage</h1>
+	<h1 class='text-center'>Getting Started</h1>
 
 
 	<div class="container">
 		<h2>Using a CDN</h2>
 
 		<p>
-			To get started quickly, paste the following snippet within the head tag of your .html file:			
+			To get started quickly, paste the following snippet within the head tag of your .html file	
 		</p>
 
 		<pre class='well'>&lt;link rel="stylesheet" href=""&gt;</pre>
+
+
+
+		<h2>Using bower</h2>
+
+		<p>
+			If your using bower, then you can install webdev-font with		
+		</p>
+
+		<pre class="well">bower install webdev-font</pre>
+
+
+		<h2>Going DIY</h2>
+
+		<p>
+			If you would like to manually include the font in your project, <a href='#'>download the project</a> from <a href='#'>github</a> and place the folders "css" and "fonts" with your project. You can then link the to the css file using the standard
+		</p>
+
+		<pre class="well">&lt;link rel="stylesheet" href="/path/to/css/webdev-font.min.css"&gt;</pre>
+	
+	</div>
+
+</div>
+
+
+<div id="usage">
+	
+	<div class="container">
+
+		<h1 class='text-center'>Usage</h1>
+
+		<p>If you've used font-awesome or one of the many font icon sets out there, then you find this very simple (just replace "fa" with "wdf"). It uses the following syntax to display all the icons,</p>
+
+		
+		<div class="row">
+			<div class="usage-example">
+				
+				<div class="col-md-5 usage-box">
+					<h2 class='text-center'><span class='usage-grey-text'>&lt;i class="wdf wdf-</span>angular<span class='usage-grey-text'>"&gt;&lt;/i&gt;</span></h2>			
+				</div>
+
+				<div class="col-md-2 usage-box">
+					<h2 class='text-center'>&#65515;</h2>
+				</div>
+
+				<div class="col-md-5 usage-box-icon">
+					<i class='wdf wdf-angular'></i>
+				</div>
+			</div>
+		</div>
+		
+		<div class="row">
+			<div class="usage-example">
+				
+				<div class="col-md-5 usage-box">
+					<h2 class='text-center'><span class='usage-grey-text'>&lt;i class="wdf wdf-</span>phoenix<span class='usage-grey-text'>"&gt;&lt;/i&gt;</span></h2>			
+				</div>
+
+				<div class="col-md-2 usage-box">
+					<h2 class='text-center'>&#65515;</h2>
+				</div>
+
+				<div class="col-md-5 usage-box-icon">
+					<i class='wdf wdf-phoenix'></i>
+				</div>
+			</div>
+		</div>
+		
+		<div class="row">
+			<div class="usage-example">
+				
+				<div class="col-md-5 usage-box">
+					<h2 class='text-center'><span class='usage-grey-text'>&lt;i class="wdf wdf-</span>meteor<span class='usage-grey-text'>"&gt;&lt;/i&gt;</span></h2>			
+				</div>
+
+				<div class="col-md-2 usage-box">
+					<h2 class='text-center'>&#65515;</h2>
+				</div>
+
+				<div class="col-md-5 usage-box-icon">
+					<i class='wdf wdf-meteor'></i>
+				</div>
+			</div>
+		</div>
+		
+		<div class="row">
+			<div class="usage-example">
+				
+				<div class="col-md-5 usage-box">
+					<h2 class='text-center'><span class='usage-grey-text'>&lt;i class="wdf wdf-</span>laravel<span class='usage-grey-text'>"&gt;&lt;/i&gt;</span></h2>			
+				</div>
+
+				<div class="col-md-2 usage-box">
+					<h2 class='text-center'>&#65515;</h2>
+				</div>
+
+				<div class="col-md-5 usage-box-icon">
+					<i class='wdf wdf-laravel'></i>
+				</div>
+			</div>
+		</div>
+		
 		
 	</div>
 
 
-	<div class="arrow-down">
-		&#x25BC;
-	</div>
 
 </div>
 
@@ -795,11 +965,641 @@
 		</div>
 	</div>
 
-
-
-
-
 </div>
+
+
+<div class="container-fluid">
+
+	<div class="panel">
+		
+		<div class="panel-heading">
+			<h1 class="text-center">Small Format - A to Z</h1>			
+		</div>
+
+		<div class="panel-body">		
+		
+			<div id="small-format">
+				
+				
+					<div class="col-sm-6 col-md-4 col-lg-3">
+						<div class="small-format-box">
+							<i class='wdf wdf-angular'></i> angular					
+						</div>
+					</div>		
+				
+					<div class="col-sm-6 col-md-4 col-lg-3">
+						<div class="small-format-box">
+							<i class='wdf wdf-aura'></i> aura					
+						</div>
+					</div>		
+				
+					<div class="col-sm-6 col-md-4 col-lg-3">
+						<div class="small-format-box">
+							<i class='wdf wdf-aws'></i> aws					
+						</div>
+					</div>		
+				
+					<div class="col-sm-6 col-md-4 col-lg-3">
+						<div class="small-format-box">
+							<i class='wdf wdf-azure'></i> azure					
+						</div>
+					</div>		
+				
+					<div class="col-sm-6 col-md-4 col-lg-3">
+						<div class="small-format-box">
+							<i class='wdf wdf-backbone'></i> backbone					
+						</div>
+					</div>		
+				
+					<div class="col-sm-6 col-md-4 col-lg-3">
+						<div class="small-format-box">
+							<i class='wdf wdf-bitbucket'></i> bitbucket					
+						</div>
+					</div>		
+				
+					<div class="col-sm-6 col-md-4 col-lg-3">
+						<div class="small-format-box">
+							<i class='wdf wdf-bootstrap'></i> bootstrap					
+						</div>
+					</div>		
+				
+					<div class="col-sm-6 col-md-4 col-lg-3">
+						<div class="small-format-box">
+							<i class='wdf wdf-bottle'></i> bottle					
+						</div>
+					</div>		
+				
+					<div class="col-sm-6 col-md-4 col-lg-3">
+						<div class="small-format-box">
+							<i class='wdf wdf-c'></i> c					
+						</div>
+					</div>		
+				
+					<div class="col-sm-6 col-md-4 col-lg-3">
+						<div class="small-format-box">
+							<i class='wdf wdf-cakephp'></i> cakephp					
+						</div>
+					</div>		
+				
+					<div class="col-sm-6 col-md-4 col-lg-3">
+						<div class="small-format-box">
+							<i class='wdf wdf-celluloid'></i> celluloid					
+						</div>
+					</div>		
+				
+					<div class="col-sm-6 col-md-4 col-lg-3">
+						<div class="small-format-box">
+							<i class='wdf wdf-cherry'></i> cherry					
+						</div>
+					</div>		
+				
+					<div class="col-sm-6 col-md-4 col-lg-3">
+						<div class="small-format-box">
+							<i class='wdf wdf-cloudify'></i> cloudify					
+						</div>
+					</div>		
+				
+					<div class="col-sm-6 col-md-4 col-lg-3">
+						<div class="small-format-box">
+							<i class='wdf wdf-codeigniter'></i> codeigniter					
+						</div>
+					</div>		
+				
+					<div class="col-sm-6 col-md-4 col-lg-3">
+						<div class="small-format-box">
+							<i class='wdf wdf-cplusplus'></i> cplusplus					
+						</div>
+					</div>		
+				
+					<div class="col-sm-6 col-md-4 col-lg-3">
+						<div class="small-format-box">
+							<i class='wdf wdf-csharp'></i> csharp					
+						</div>
+					</div>		
+				
+					<div class="col-sm-6 col-md-4 col-lg-3">
+						<div class="small-format-box">
+							<i class='wdf wdf-css'></i> css					
+						</div>
+					</div>		
+				
+					<div class="col-sm-6 col-md-4 col-lg-3">
+						<div class="small-format-box">
+							<i class='wdf wdf-cuba'></i> cuba					
+						</div>
+					</div>		
+				
+					<div class="col-sm-6 col-md-4 col-lg-3">
+						<div class="small-format-box">
+							<i class='wdf wdf-derby'></i> derby					
+						</div>
+					</div>		
+				
+					<div class="col-sm-6 col-md-4 col-lg-3">
+						<div class="small-format-box">
+							<i class='wdf wdf-digital-ocean'></i> digital-ocean					
+						</div>
+					</div>		
+				
+					<div class="col-sm-6 col-md-4 col-lg-3">
+						<div class="small-format-box">
+							<i class='wdf wdf-django'></i> django					
+						</div>
+					</div>		
+				
+					<div class="col-sm-6 col-md-4 col-lg-3">
+						<div class="small-format-box">
+							<i class='wdf wdf-dojo'></i> dojo					
+						</div>
+					</div>		
+				
+					<div class="col-sm-6 col-md-4 col-lg-3">
+						<div class="small-format-box">
+							<i class='wdf wdf-dotnet'></i> dotnet					
+						</div>
+					</div>		
+				
+					<div class="col-sm-6 col-md-4 col-lg-3">
+						<div class="small-format-box">
+							<i class='wdf wdf-elixir'></i> elixir					
+						</div>
+					</div>		
+				
+					<div class="col-sm-6 col-md-4 col-lg-3">
+						<div class="small-format-box">
+							<i class='wdf wdf-ember'></i> ember					
+						</div>
+					</div>		
+				
+					<div class="col-sm-6 col-md-4 col-lg-3">
+						<div class="small-format-box">
+							<i class='wdf wdf-erlang'></i> erlang					
+						</div>
+					</div>		
+				
+					<div class="col-sm-6 col-md-4 col-lg-3">
+						<div class="small-format-box">
+							<i class='wdf wdf-express'></i> express					
+						</div>
+					</div>		
+				
+					<div class="col-sm-6 col-md-4 col-lg-3">
+						<div class="small-format-box">
+							<i class='wdf wdf-flask'></i> flask					
+						</div>
+					</div>		
+				
+					<div class="col-sm-6 col-md-4 col-lg-3">
+						<div class="small-format-box">
+							<i class='wdf wdf-foundation'></i> foundation					
+						</div>
+					</div>		
+				
+					<div class="col-sm-6 col-md-4 col-lg-3">
+						<div class="small-format-box">
+							<i class='wdf wdf-gandi'></i> gandi					
+						</div>
+					</div>		
+				
+					<div class="col-sm-6 col-md-4 col-lg-3">
+						<div class="small-format-box">
+							<i class='wdf wdf-ghost'></i> ghost					
+						</div>
+					</div>		
+				
+					<div class="col-sm-6 col-md-4 col-lg-3">
+						<div class="small-format-box">
+							<i class='wdf wdf-github'></i> github					
+						</div>
+					</div>		
+				
+					<div class="col-sm-6 col-md-4 col-lg-3">
+						<div class="small-format-box">
+							<i class='wdf wdf-go-daddy'></i> go-daddy					
+						</div>
+					</div>		
+				
+					<div class="col-sm-6 col-md-4 col-lg-3">
+						<div class="small-format-box">
+							<i class='wdf wdf-go'></i> go					
+						</div>
+					</div>		
+				
+					<div class="col-sm-6 col-md-4 col-lg-3">
+						<div class="small-format-box">
+							<i class='wdf wdf-google-cloud'></i> google-cloud					
+						</div>
+					</div>		
+				
+					<div class="col-sm-6 col-md-4 col-lg-3">
+						<div class="small-format-box">
+							<i class='wdf wdf-google-web-toolkit'></i> google-web-toolkit					
+						</div>
+					</div>		
+				
+					<div class="col-sm-6 col-md-4 col-lg-3">
+						<div class="small-format-box">
+							<i class='wdf wdf-grails'></i> grails					
+						</div>
+					</div>		
+				
+					<div class="col-sm-6 col-md-4 col-lg-3">
+						<div class="small-format-box">
+							<i class='wdf wdf-grape'></i> grape					
+						</div>
+					</div>		
+				
+					<div class="col-sm-6 col-md-4 col-lg-3">
+						<div class="small-format-box">
+							<i class='wdf wdf-grunt'></i> grunt					
+						</div>
+					</div>		
+				
+					<div class="col-sm-6 col-md-4 col-lg-3">
+						<div class="small-format-box">
+							<i class='wdf wdf-gulp'></i> gulp					
+						</div>
+					</div>		
+				
+					<div class="col-sm-6 col-md-4 col-lg-3">
+						<div class="small-format-box">
+							<i class='wdf wdf-hapi'></i> hapi					
+						</div>
+					</div>		
+				
+					<div class="col-sm-6 col-md-4 col-lg-3">
+						<div class="small-format-box">
+							<i class='wdf wdf-haskell'></i> haskell					
+						</div>
+					</div>		
+				
+					<div class="col-sm-6 col-md-4 col-lg-3">
+						<div class="small-format-box">
+							<i class='wdf wdf-heroku'></i> heroku					
+						</div>
+					</div>		
+				
+					<div class="col-sm-6 col-md-4 col-lg-3">
+						<div class="small-format-box">
+							<i class='wdf wdf-html5'></i> html5					
+						</div>
+					</div>		
+				
+					<div class="col-sm-6 col-md-4 col-lg-3">
+						<div class="small-format-box">
+							<i class='wdf wdf-ionic'></i> ionic					
+						</div>
+					</div>		
+				
+					<div class="col-sm-6 col-md-4 col-lg-3">
+						<div class="small-format-box">
+							<i class='wdf wdf-java'></i> java					
+						</div>
+					</div>		
+				
+					<div class="col-sm-6 col-md-4 col-lg-3">
+						<div class="small-format-box">
+							<i class='wdf wdf-javascript'></i> javascript					
+						</div>
+					</div>		
+				
+					<div class="col-sm-6 col-md-4 col-lg-3">
+						<div class="small-format-box">
+							<i class='wdf wdf-jquery'></i> jquery					
+						</div>
+					</div>		
+				
+					<div class="col-sm-6 col-md-4 col-lg-3">
+						<div class="small-format-box">
+							<i class='wdf wdf-knockout'></i> knockout					
+						</div>
+					</div>		
+				
+					<div class="col-sm-6 col-md-4 col-lg-3">
+						<div class="small-format-box">
+							<i class='wdf wdf-laravel'></i> laravel					
+						</div>
+					</div>		
+				
+					<div class="col-sm-6 col-md-4 col-lg-3">
+						<div class="small-format-box">
+							<i class='wdf wdf-lisp'></i> lisp					
+						</div>
+					</div>		
+				
+					<div class="col-sm-6 col-md-4 col-lg-3">
+						<div class="small-format-box">
+							<i class='wdf wdf-lotus'></i> lotus					
+						</div>
+					</div>		
+				
+					<div class="col-sm-6 col-md-4 col-lg-3">
+						<div class="small-format-box">
+							<i class='wdf wdf-mariadb'></i> mariadb					
+						</div>
+					</div>		
+				
+					<div class="col-sm-6 col-md-4 col-lg-3">
+						<div class="small-format-box">
+							<i class='wdf wdf-materialize'></i> materialize					
+						</div>
+					</div>		
+				
+					<div class="col-sm-6 col-md-4 col-lg-3">
+						<div class="small-format-box">
+							<i class='wdf wdf-meanjs'></i> meanjs					
+						</div>
+					</div>		
+				
+					<div class="col-sm-6 col-md-4 col-lg-3">
+						<div class="small-format-box">
+							<i class='wdf wdf-meteor'></i> meteor					
+						</div>
+					</div>		
+				
+					<div class="col-sm-6 col-md-4 col-lg-3">
+						<div class="small-format-box">
+							<i class='wdf wdf-modulus'></i> modulus					
+						</div>
+					</div>		
+				
+					<div class="col-sm-6 col-md-4 col-lg-3">
+						<div class="small-format-box">
+							<i class='wdf wdf-mongodb'></i> mongodb					
+						</div>
+					</div>		
+				
+					<div class="col-sm-6 col-md-4 col-lg-3">
+						<div class="small-format-box">
+							<i class='wdf wdf-mysql'></i> mysql					
+						</div>
+					</div>		
+				
+					<div class="col-sm-6 col-md-4 col-lg-3">
+						<div class="small-format-box">
+							<i class='wdf wdf-namecheap'></i> namecheap					
+						</div>
+					</div>		
+				
+					<div class="col-sm-6 col-md-4 col-lg-3">
+						<div class="small-format-box">
+							<i class='wdf wdf-nodejs'></i> nodejs					
+						</div>
+					</div>		
+				
+					<div class="col-sm-6 col-md-4 col-lg-3">
+						<div class="small-format-box">
+							<i class='wdf wdf-oracle'></i> oracle					
+						</div>
+					</div>		
+				
+					<div class="col-sm-6 col-md-4 col-lg-3">
+						<div class="small-format-box">
+							<i class='wdf wdf-pakyow'></i> pakyow					
+						</div>
+					</div>		
+				
+					<div class="col-sm-6 col-md-4 col-lg-3">
+						<div class="small-format-box">
+							<i class='wdf wdf-phalcon'></i> phalcon					
+						</div>
+					</div>		
+				
+					<div class="col-sm-6 col-md-4 col-lg-3">
+						<div class="small-format-box">
+							<i class='wdf wdf-phoenix'></i> phoenix					
+						</div>
+					</div>		
+				
+					<div class="col-sm-6 col-md-4 col-lg-3">
+						<div class="small-format-box">
+							<i class='wdf wdf-php'></i> php					
+						</div>
+					</div>		
+				
+					<div class="col-sm-6 col-md-4 col-lg-3">
+						<div class="small-format-box">
+							<i class='wdf wdf-play'></i> play					
+						</div>
+					</div>		
+				
+					<div class="col-sm-6 col-md-4 col-lg-3">
+						<div class="small-format-box">
+							<i class='wdf wdf-polymer'></i> polymer					
+						</div>
+					</div>		
+				
+					<div class="col-sm-6 col-md-4 col-lg-3">
+						<div class="small-format-box">
+							<i class='wdf wdf-postgresql'></i> postgresql					
+						</div>
+					</div>		
+				
+					<div class="col-sm-6 col-md-4 col-lg-3">
+						<div class="small-format-box">
+							<i class='wdf wdf-purecss'></i> purecss					
+						</div>
+					</div>		
+				
+					<div class="col-sm-6 col-md-4 col-lg-3">
+						<div class="small-format-box">
+							<i class='wdf wdf-pyramid'></i> pyramid					
+						</div>
+					</div>		
+				
+					<div class="col-sm-6 col-md-4 col-lg-3">
+						<div class="small-format-box">
+							<i class='wdf wdf-python'></i> python					
+						</div>
+					</div>		
+				
+					<div class="col-sm-6 col-md-4 col-lg-3">
+						<div class="small-format-box">
+							<i class='wdf wdf-r'></i> r					
+						</div>
+					</div>		
+				
+					<div class="col-sm-6 col-md-4 col-lg-3">
+						<div class="small-format-box">
+							<i class='wdf wdf-rackspace'></i> rackspace					
+						</div>
+					</div>		
+				
+					<div class="col-sm-6 col-md-4 col-lg-3">
+						<div class="small-format-box">
+							<i class='wdf wdf-rails'></i> rails					
+						</div>
+					</div>		
+				
+					<div class="col-sm-6 col-md-4 col-lg-3">
+						<div class="small-format-box">
+							<i class='wdf wdf-react'></i> react					
+						</div>
+					</div>		
+				
+					<div class="col-sm-6 col-md-4 col-lg-3">
+						<div class="small-format-box">
+							<i class='wdf wdf-ruby'></i> ruby					
+						</div>
+					</div>		
+				
+					<div class="col-sm-6 col-md-4 col-lg-3">
+						<div class="small-format-box">
+							<i class='wdf wdf-rust'></i> rust					
+						</div>
+					</div>		
+				
+					<div class="col-sm-6 col-md-4 col-lg-3">
+						<div class="small-format-box">
+							<i class='wdf wdf-sails'></i> sails					
+						</div>
+					</div>		
+				
+					<div class="col-sm-6 col-md-4 col-lg-3">
+						<div class="small-format-box">
+							<i class='wdf wdf-snap'></i> snap					
+						</div>
+					</div>		
+				
+					<div class="col-sm-6 col-md-4 col-lg-3">
+						<div class="small-format-box">
+							<i class='wdf wdf-socketio'></i> socketio					
+						</div>
+					</div>		
+				
+					<div class="col-sm-6 col-md-4 col-lg-3">
+						<div class="small-format-box">
+							<i class='wdf wdf-socketstream'></i> socketstream					
+						</div>
+					</div>		
+				
+					<div class="col-sm-6 col-md-4 col-lg-3">
+						<div class="small-format-box">
+							<i class='wdf wdf-spark'></i> spark					
+						</div>
+					</div>		
+				
+					<div class="col-sm-6 col-md-4 col-lg-3">
+						<div class="small-format-box">
+							<i class='wdf wdf-spock'></i> spock					
+						</div>
+					</div>		
+				
+					<div class="col-sm-6 col-md-4 col-lg-3">
+						<div class="small-format-box">
+							<i class='wdf wdf-spring'></i> spring					
+						</div>
+					</div>		
+				
+					<div class="col-sm-6 col-md-4 col-lg-3">
+						<div class="small-format-box">
+							<i class='wdf wdf-sqlite'></i> sqlite					
+						</div>
+					</div>		
+				
+					<div class="col-sm-6 col-md-4 col-lg-3">
+						<div class="small-format-box">
+							<i class='wdf wdf-squarespace'></i> squarespace					
+						</div>
+					</div>		
+				
+					<div class="col-sm-6 col-md-4 col-lg-3">
+						<div class="small-format-box">
+							<i class='wdf wdf-sugar'></i> sugar					
+						</div>
+					</div>		
+				
+					<div class="col-sm-6 col-md-4 col-lg-3">
+						<div class="small-format-box">
+							<i class='wdf wdf-swift'></i> swift					
+						</div>
+					</div>		
+				
+					<div class="col-sm-6 col-md-4 col-lg-3">
+						<div class="small-format-box">
+							<i class='wdf wdf-symfony'></i> symfony					
+						</div>
+					</div>		
+				
+					<div class="col-sm-6 col-md-4 col-lg-3">
+						<div class="small-format-box">
+							<i class='wdf wdf-teslajs'></i> teslajs					
+						</div>
+					</div>		
+				
+					<div class="col-sm-6 col-md-4 col-lg-3">
+						<div class="small-format-box">
+							<i class='wdf wdf-tornado'></i> tornado					
+						</div>
+					</div>		
+				
+					<div class="col-sm-6 col-md-4 col-lg-3">
+						<div class="small-format-box">
+							<i class='wdf wdf-totaljs'></i> totaljs					
+						</div>
+					</div>		
+				
+					<div class="col-sm-6 col-md-4 col-lg-3">
+						<div class="small-format-box">
+							<i class='wdf wdf-turbogears'></i> turbogears					
+						</div>
+					</div>		
+				
+					<div class="col-sm-6 col-md-4 col-lg-3">
+						<div class="small-format-box">
+							<i class='wdf wdf-uikit'></i> uikit					
+						</div>
+					</div>		
+				
+					<div class="col-sm-6 col-md-4 col-lg-3">
+						<div class="small-format-box">
+							<i class='wdf wdf-vaadin'></i> vaadin					
+						</div>
+					</div>		
+				
+					<div class="col-sm-6 col-md-4 col-lg-3">
+						<div class="small-format-box">
+							<i class='wdf wdf-vue'></i> vue					
+						</div>
+					</div>		
+				
+					<div class="col-sm-6 col-md-4 col-lg-3">
+						<div class="small-format-box">
+							<i class='wdf wdf-webpy'></i> webpy					
+						</div>
+					</div>		
+				
+					<div class="col-sm-6 col-md-4 col-lg-3">
+						<div class="small-format-box">
+							<i class='wdf wdf-wordpress'></i> wordpress					
+						</div>
+					</div>		
+				
+					<div class="col-sm-6 col-md-4 col-lg-3">
+						<div class="small-format-box">
+							<i class='wdf wdf-yesod'></i> yesod					
+						</div>
+					</div>		
+				
+					<div class="col-sm-6 col-md-4 col-lg-3">
+						<div class="small-format-box">
+							<i class='wdf wdf-yii'></i> yii					
+						</div>
+					</div>		
+				
+					<div class="col-sm-6 col-md-4 col-lg-3">
+						<div class="small-format-box">
+							<i class='wdf wdf-zend'></i> zend					
+						</div>
+					</div>		
+				
+
+			</div>
+		</div>
+	</div>
+</div>
+
+
 
 
 <div id="footer">
