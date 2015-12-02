@@ -1,0 +1,804 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+
+	<title>webdev-font</title>
+
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
+	<link href='https://fonts.googleapis.com/css?family=Raleway:400,300,200,500' rel='stylesheet' type='text/css'>
+
+	<link rel="stylesheet" href="css/webdev-font.css">
+	
+	<style>
+
+		html, body {
+			font-family: 'Raleway', sans-serif;
+			font-weight: 300;
+		}
+
+		h1,h2,h3,h4,h5,h6 {
+			font-weight: 300;
+		}
+
+		a {
+			text-decoration: none;
+			color:inherit;
+		}
+
+		a:hover {
+			color:#aaa;
+			text-decoration: none;
+		}
+
+		#github-link {
+			position: absolute;
+			top:10px;
+			right:10px;
+		}
+
+
+		#splash {
+			position: relative;
+			background: #444;
+			color:#fff;
+			min-height: 500px;
+		}
+
+		#splash-text {
+			margin:0px;
+			position: absolute;
+			text-align: center;
+			width:100%;
+			top:50%;
+			transform:translateY(-50%);
+			padding:20px 0px;
+		}
+
+		#splash-icons {
+			padding: 0px;
+			margin: 0px;
+		}
+
+		#splash-icons i {
+			font-size: 1.3em;
+		}
+
+		.splash-icons-1 i {
+			color:#666;			
+		}
+		.splash-icons-2 i {
+			color:#555;			
+		}
+		.splash-icons-3 i {
+			color:#4d4d4d;			
+		}
+		.splash-icons-4 i {
+			color:#464646;			
+		}
+
+		#splash-icons-holder {
+			position: relative;
+			width:350px;
+			margin:0 auto;
+		}
+
+		#splash-icon-fade {
+			position: absolute;
+			top:0px;
+			left:0px;
+			width:100%;
+			height:100%;
+
+		}
+		#getting-started {
+			position: relative;
+			background: #666;
+			color:#fff;
+			min-height:500px;
+		}
+
+		#getting-started h1 {
+			margin:0px;
+			padding: 50px 0px;
+		}
+
+		.icon-holder i {
+			color:#444;
+			font-size: 4em;
+			display:block;
+		}
+
+		.icon-holder {
+			text-align: center;
+			color:#666;
+			margin-bottom: 60px;
+			padding:20px 0px;
+		}
+
+		.icon-holder:hover {
+			color:#fff;
+			background: #444;
+		}
+
+		.icon-holder:hover i {
+			color:#fff;
+		}
+
+		.panel {
+			margin-bottom: 70px;
+		}
+
+		.panel-heading > h1 {
+			color:#ccc;
+		}
+
+		.arrow-down {
+			position: absolute;
+			bottom:5%;
+			left:0px;
+			width:100%;
+			text-align: center;
+			color:#888;
+		}
+	</style>
+</head>
+<body>
+
+
+<div id="splash">
+
+	<a href="https://github.com/nickpolet/webdev-font">
+		<div id="github-link">
+			<i class='wdf wdf-github'></i> View on github
+		</div>
+	</a>
+
+
+	<div id="splash-text">
+		<h1 class='text-center'>webdev-font</h1>
+
+		<p>web development related icon font</p>
+		
+		<div id="splash-icons-holder">
+			
+			<p class="text-center splash-icons-1" id='splash-icons'>
+				<i class='wdf wdf-angular'></i>
+				<i class='wdf wdf-react'></i>
+				<i class='wdf wdf-haskell'></i>
+				<i class='wdf wdf-ruby'></i>
+				<i class='wdf wdf-django'></i>
+				<i class='wdf wdf-meteor'></i>
+			</p>	
+
+			<p class="text-center splash-icons-2" id='splash-icons'>
+				<i class='wdf wdf-vue'></i>
+				<i class='wdf wdf-meanjs'></i>
+				<i class='wdf wdf-derby'></i>
+				<i class='wdf wdf-knockout'></i>
+				<i class='wdf wdf-aws'></i>
+				<i class='wdf wdf-turbogears'></i>
+			</p>
+
+			<p class="text-center splash-icons-3" id='splash-icons'>
+				<i class='wdf wdf-lotus'></i>
+				<i class='wdf wdf-codeigniter'></i>
+				<i class='wdf wdf-laravel'></i>
+				<i class='wdf wdf-yii'></i>
+				<i class='wdf wdf-play'></i>
+				<i class='wdf wdf-digital-ocean'></i>
+			</p>
+
+			<p class="text-center splash-icons-4" id='splash-icons'>
+				<i class='wdf wdf-symfony'></i>
+				<i class='wdf wdf-aura'></i>
+				<i class='wdf wdf-zend'></i>
+				<i class='wdf wdf-phalcon'></i>
+				<i class='wdf wdf-vaadin'></i>
+				<i class='wdf wdf-spock'></i>
+			</p>
+
+			<div id="splash-icon-fade"></div>
+
+		</div>
+
+	</div>
+
+	<div class="arrow-down">
+		&#x25BC;
+	</div>
+
+</div>
+
+<div id='getting-started'>
+	
+	<h1 class='text-center'>Usage</h1>
+
+
+
+
+	<div class="arrow-down">
+		&#x25BC;
+	</div>
+
+</div>
+
+
+
+<div class="container">
+
+
+
+
+
+	<div class="panel">
+		<div class="panel-heading">
+			<h1 class='text-center'><i class='wdf wdf-javascript'></i> Javascript Frameworks</h1>
+		</div>
+
+		<div class="panel-body">
+
+			<div class="col-xs-6 col-sm-4 col-md-3 col-lg-2 icon-holder">
+				<i class='wdf wdf-nodejs'></i> nodejs		
+			</div>
+
+			<div class="col-xs-6 col-sm-4 col-md-3 col-lg-2 icon-holder">
+				<i class='wdf wdf-angular'></i> angular		
+			</div>
+
+			<div class="col-xs-6 col-sm-4 col-md-3 col-lg-2 icon-holder">
+				<i class='wdf wdf-meteor'></i> meteor		
+			</div>
+
+			<div class="col-xs-6 col-sm-4 col-md-3 col-lg-2 icon-holder">
+				<i class='wdf wdf-react'></i> react		
+			</div>
+
+			<div class="col-xs-6 col-sm-4 col-md-3 col-lg-2 icon-holder">
+				<i class='wdf wdf-vue'></i> vue		
+			</div>
+
+			<div class="col-xs-6 col-sm-4 col-md-3 col-lg-2 icon-holder">
+				<i class='wdf wdf-meanjs'></i> meanjs		
+			</div>
+
+			<div class="col-xs-6 col-sm-4 col-md-3 col-lg-2 icon-holder">
+				<i class='wdf wdf-totaljs'></i> totaljs		
+			</div>
+
+			<div class="col-xs-6 col-sm-4 col-md-3 col-lg-2 icon-holder">
+				<i class='wdf wdf-socketstream'></i> socketstream		
+			</div>
+
+			<div class="col-xs-6 col-sm-4 col-md-3 col-lg-2 icon-holder">
+				<i class='wdf wdf-derby'></i> derby		
+			</div>
+
+			<div class="col-xs-6 col-sm-4 col-md-3 col-lg-2 icon-holder">
+				<i class='wdf wdf-knockout'></i> knockout		
+			</div>
+
+			<div class="col-xs-6 col-sm-4 col-md-3 col-lg-2 icon-holder">
+				<i class='wdf wdf-backbone'></i> backbone		
+			</div>
+
+			<div class="col-xs-6 col-sm-4 col-md-3 col-lg-2 icon-holder">
+				<i class='wdf wdf-jquery'></i> jquery		
+			</div>
+
+			<div class="col-xs-6 col-sm-4 col-md-3 col-lg-2 icon-holder">
+				<i class='wdf wdf-hapi'></i> hapi		
+			</div>
+
+			<div class="col-xs-6 col-sm-4 col-md-3 col-lg-2 icon-holder">
+				<i class='wdf wdf-socketio'></i> socketio		
+			</div>
+
+			<div class="col-xs-6 col-sm-4 col-md-3 col-lg-2 icon-holder">
+				<i class='wdf wdf-express'></i> express	
+			</div>
+
+			<div class="col-xs-6 col-sm-4 col-md-3 col-lg-2 icon-holder">
+				<i class='wdf wdf-ember'></i> ember	
+			</div>
+
+			<div class="col-xs-6 col-sm-4 col-md-3 col-lg-2 icon-holder">
+				<i class='wdf wdf-teslajs'></i> teslajs
+			</div>
+
+			<div class="col-xs-6 col-sm-4 col-md-3 col-lg-2 icon-holder">
+				<i class='wdf wdf-sails'></i> sails		
+			</div>
+
+			<div class="col-xs-6 col-sm-4 col-md-3 col-lg-2 icon-holder">
+				<i class='wdf wdf-polymer'></i> polymer		
+			</div>
+
+			<div class="col-xs-6 col-sm-4 col-md-3 col-lg-2 icon-holder">
+				<i class='wdf wdf-dojo'></i> dojo		
+			</div>
+
+			<div class="col-xs-6 col-sm-4 col-md-3 col-lg-2 icon-holder">
+				<i class='wdf wdf-gulp'></i> gulp		
+			</div>
+
+			<div class="col-xs-6 col-sm-4 col-md-3 col-lg-2 icon-holder">
+				<i class='wdf wdf-grunt'></i> grunt		
+			</div>
+
+		</div>
+	</div>
+
+
+
+	<div class="panel">
+		
+		<div class="panel-heading">
+			<h1 class="text-center"><i class='wdf wdf-python'></i> Python Frameworks</h1>
+		</div>
+
+		<div class="panel-body">			
+			<div class="col-xs-6 col-sm-4 col-md-3 col-lg-2 icon-holder">
+				<i class='wdf wdf-django'></i> django		
+			</div>
+
+			<div class="col-xs-6 col-sm-4 col-md-3 col-lg-2 icon-holder">
+				<i class='wdf wdf-cherry'></i> cherry		
+			</div>
+
+			<div class="col-xs-6 col-sm-4 col-md-3 col-lg-2 icon-holder">
+				<i class='wdf wdf-flask'></i> flask		
+			</div>
+
+			<div class="col-xs-6 col-sm-4 col-md-3 col-lg-2 icon-holder">
+				<i class='wdf wdf-tornado'></i> tornado		
+			</div>
+
+			<div class="col-xs-6 col-sm-4 col-md-3 col-lg-2 icon-holder">
+				<i class='wdf wdf-webpy'></i> webpy		
+			</div>
+
+			<div class="col-xs-6 col-sm-4 col-md-3 col-lg-2 icon-holder">
+				<i class='wdf wdf-bottle'></i> bottle	
+			</div>
+
+			<div class="col-xs-6 col-sm-4 col-md-3 col-lg-2 icon-holder">
+				<i class='wdf wdf-pyramid'></i> pyramid	
+			</div>
+
+			<div class="col-xs-6 col-sm-4 col-md-3 col-lg-2 icon-holder">
+				<i class='wdf wdf-turbogears'></i> turbogears	
+			</div>
+
+		</div>
+
+	</div>
+
+
+	<div class="panel">
+		<div class="panel-heading">
+			<h1 class="text-center"><i class='wdf wdf-ruby'></i> Ruby Frameworks</h1>
+		</div>
+
+		<div class="panel-body">
+			<div class="col-xs-6 col-sm-4 col-md-3 col-lg-2 icon-holder">
+				<i class='wdf wdf-rails'></i> rails		
+			</div>
+
+			<div class="col-xs-6 col-sm-4 col-md-3 col-lg-2 icon-holder">
+				<i class='wdf wdf-lotus'></i> lotus		
+			</div>
+
+			<div class="col-xs-6 col-sm-4 col-md-3 col-lg-2 icon-holder">
+				<i class='wdf wdf-grape'></i> grape		
+			</div>
+
+			<div class="col-xs-6 col-sm-4 col-md-3 col-lg-2 icon-holder">
+				<i class='wdf wdf-cuba'></i> cuba		
+			</div>
+
+			<div class="col-xs-6 col-sm-4 col-md-3 col-lg-2 icon-holder">
+				<i class='wdf wdf-pakyow'></i> pakyow		
+			</div>
+
+			<div class="col-xs-6 col-sm-4 col-md-3 col-lg-2 icon-holder">
+				<i class='wdf wdf-celluloid'></i> celluloid		
+			</div>
+
+		</div>
+	</div>
+
+
+	
+
+	<div class="panel">
+		<div class="panel-heading">
+			<h1 class='text-center'><i class='wdf wdf-php'></i> PHP Frameworks</h1>
+		</div>
+
+		<div class="panel-body">
+			<div class="col-xs-6 col-sm-4 col-md-3 col-lg-2 icon-holder">
+				<i class='wdf wdf-laravel'></i> laravel		
+			</div>
+
+
+			<div class="col-xs-6 col-sm-4 col-md-3 col-lg-2 icon-holder">
+				<i class='wdf wdf-codeigniter'></i> codeigniter		
+			</div>
+
+			<div class="col-xs-6 col-sm-4 col-md-3 col-lg-2 icon-holder">
+				<i class='wdf wdf-symfony'></i> symfony		
+			</div>
+
+			<div class="col-xs-6 col-sm-4 col-md-3 col-lg-2 icon-holder">
+				<i class='wdf wdf-cakephp'></i> cakephp		
+			</div>
+
+			<div class="col-xs-6 col-sm-4 col-md-3 col-lg-2 icon-holder">
+				<i class='wdf wdf-zend'></i> zend		
+			</div>
+
+			<div class="col-xs-6 col-sm-4 col-md-3 col-lg-2 icon-holder">
+				<i class='wdf wdf-yii'></i> yii		
+			</div>
+
+			<div class="col-xs-6 col-sm-4 col-md-3 col-lg-2 icon-holder">
+				<i class='wdf wdf-aura'></i> aura		
+			</div>
+
+			<div class="col-xs-6 col-sm-4 col-md-3 col-lg-2 icon-holder">
+				<i class='wdf wdf-wordpress'></i> wordpress		
+			</div>
+
+		</div>
+	</div>
+
+	
+	<div class="panel">
+		<div class="panel-heading">
+			<h1 class="text-center"><i class='wdf wdf-java'></i> Java Frameworks</h1>
+		</div>
+
+		<div class="panel-body">
+
+			<div class="col-xs-6 col-sm-4 col-md-3 col-lg-2 icon-holder">
+				<i class='wdf wdf-spring'></i> spring		
+			</div>
+
+			<div class="col-xs-6 col-sm-4 col-md-3 col-lg-2 icon-holder">
+				<i class='wdf wdf-play'></i> play		
+			</div>
+
+			<div class="col-xs-6 col-sm-4 col-md-3 col-lg-2 icon-holder">
+				<i class='wdf wdf-google-web-toolkit'></i> google-web-toolkit		
+			</div>
+
+			<div class="col-xs-6 col-sm-4 col-md-3 col-lg-2 icon-holder">
+				<i class='wdf wdf-phalcon'></i> phalcon		
+			</div>
+
+			<div class="col-xs-6 col-sm-4 col-md-3 col-lg-2 icon-holder">
+				<i class='wdf wdf-grails'></i> grails		
+			</div>
+
+			<div class="col-xs-6 col-sm-4 col-md-3 col-lg-2 icon-holder">
+				<i class='wdf wdf-vaadin'></i> vaadin		
+			</div>
+
+			<div class="col-xs-6 col-sm-4 col-md-3 col-lg-2 icon-holder">
+				<i class='wdf wdf-spark'></i> spark		
+			</div>
+
+		</div>
+	</div>
+
+		
+	<div class="panel">
+		<div class="panel-heading">
+			<h1 class="text-center"><i class='wdf wdf-elixir'></i> Elixir Frameworks</h1>
+		</div>
+
+		<div class="panel-body">
+
+			<div class="col-xs-6 col-sm-4 col-md-3 col-lg-2 icon-holder">
+				<i class='wdf wdf-phoenix'></i> phoenix		
+			</div>
+
+			<div class="col-xs-6 col-sm-4 col-md-3 col-lg-2 icon-holder">
+				<i class='wdf wdf-sugar'></i> sugar		
+			</div>
+
+		</div>
+	</div>
+
+			
+	<div class="panel">
+		<div class="panel-heading">
+			<h1 class="text-center"><i class='wdf wdf-haskell'></i> Haskell Frameworks</h1>
+		</div>
+
+		<div class="panel-body">
+
+			<div class="col-xs-6 col-sm-4 col-md-3 col-lg-2 icon-holder">
+				<i class='wdf wdf-yesod'></i> yesod		
+			</div>
+
+			<div class="col-xs-6 col-sm-4 col-md-3 col-lg-2 icon-holder">
+				<i class='wdf wdf-snap'></i> snap		
+			</div>
+
+			<div class="col-xs-6 col-sm-4 col-md-3 col-lg-2 icon-holder">
+				<i class='wdf wdf-spock'></i> spock		
+			</div>
+
+
+		</div>
+	</div>
+	
+		
+	<div class="panel">
+		<div class="panel-heading">
+			<h1 class="text-center"><i class='wdf wdf-css'></i> CSS Frameworks</h1>
+		</div>
+
+		<div class="panel-body">
+
+			<div class="col-xs-6 col-sm-4 col-md-3 col-lg-2 icon-holder">
+				<i class='wdf wdf-materialize'></i> materialize		
+			</div>
+
+			<div class="col-xs-6 col-sm-4 col-md-3 col-lg-2 icon-holder">
+				<i class='wdf wdf-uikit'></i> uikit		
+			</div>
+
+			<div class="col-xs-6 col-sm-4 col-md-3 col-lg-2 icon-holder">
+				<i class='wdf wdf-ionic'></i> ionic		
+			</div>
+
+			<div class="col-xs-6 col-sm-4 col-md-3 col-lg-2 icon-holder">
+				<i class='wdf wdf-bootstrap'></i> bootstrap	
+			</div>
+
+			<div class="col-xs-6 col-sm-4 col-md-3 col-lg-2 icon-holder">
+				<i class='wdf wdf-purecss'></i> pure	
+			</div>
+
+			<div class="col-xs-6 col-sm-4 col-md-3 col-lg-2 icon-holder">
+				<i class='wdf wdf-foundation'></i> foundation	
+			</div>
+
+		</div>
+	</div>
+
+			
+
+	<div class="panel">
+		<div class="panel-heading">
+			<h1 class="text-center" id='languages'>Languages</h1>
+		</div>
+
+		<div class="panel-body">
+
+			<div class="col-xs-6 col-sm-4 col-md-3 col-lg-2 icon-holder">
+				<i class='wdf wdf-javascript'></i> javascript		
+			</div>
+
+			<div class="col-xs-6 col-sm-4 col-md-3 col-lg-2 icon-holder">
+				<i class='wdf wdf-python'></i> python		
+			</div>
+
+			<div class="col-xs-6 col-sm-4 col-md-3 col-lg-2 icon-holder">
+				<i class='wdf wdf-ruby'></i> ruby		
+			</div>
+
+			<div class="col-xs-6 col-sm-4 col-md-3 col-lg-2 icon-holder">
+				<i class='wdf wdf-php'></i> php		
+			</div>
+
+			<div class="col-xs-6 col-sm-4 col-md-3 col-lg-2 icon-holder">
+				<i class='wdf wdf-java'></i> java		
+			</div>
+
+			<div class="col-xs-6 col-sm-4 col-md-3 col-lg-2 icon-holder">
+				<i class='wdf wdf-rust'></i> rust		
+			</div>
+
+			<div class="col-xs-6 col-sm-4 col-md-3 col-lg-2 icon-holder">
+				<i class='wdf wdf-haskell'></i> haskell		
+			</div>
+
+			<div class="col-xs-6 col-sm-4 col-md-3 col-lg-2 icon-holder">
+				<i class='wdf wdf-elixir'></i> elixir		
+			</div>
+
+			<div class="col-xs-6 col-sm-4 col-md-3 col-lg-2 icon-holder">
+				<i class='wdf wdf-swift'></i> swift		
+			</div>
+
+			<div class="col-xs-6 col-sm-4 col-md-3 col-lg-2 icon-holder">
+				<i class='wdf wdf-go'></i> go		
+			</div>
+
+			<div class="col-xs-6 col-sm-4 col-md-3 col-lg-2 icon-holder">
+				<i class='wdf wdf-html5'></i> html5	
+			</div>
+
+			<div class="col-xs-6 col-sm-4 col-md-3 col-lg-2 icon-holder">
+				<i class='wdf wdf-css'></i> css	
+			</div>
+
+			<div class="col-xs-6 col-sm-4 col-md-3 col-lg-2 icon-holder">
+				<i class='wdf wdf-r'></i> r	
+			</div>
+
+			<div class="col-xs-6 col-sm-4 col-md-3 col-lg-2 icon-holder">
+				<i class='wdf wdf-lisp'></i> lisp		
+			</div>
+
+
+			<div class="col-xs-6 col-sm-4 col-md-3 col-lg-2 icon-holder">
+				<i class='wdf wdf-c'></i> c	
+			</div>
+
+			<div class="col-xs-6 col-sm-4 col-md-3 col-lg-2 icon-holder">
+				<i class='wdf wdf-cplusplus'></i> cplusplus	
+			</div>
+
+			<div class="col-xs-6 col-sm-4 col-md-3 col-lg-2 icon-holder">
+				<i class='wdf wdf-csharp'></i> csharp	
+			</div>
+
+			<div class="col-xs-6 col-sm-4 col-md-3 col-lg-2 icon-holder">
+				<i class='wdf wdf-dotnet'></i> dotnet		
+			</div>
+
+			<div class="col-xs-6 col-sm-4 col-md-3 col-lg-2 icon-holder">
+				<i class='wdf wdf-erlang'></i> erlang		
+			</div>
+
+		</div>
+	</div>
+
+	
+	<div class="panel">
+		<div class="panel-heading">
+			<h1 class="text-center">Database Related</h1>
+		</div>
+		
+		<div class="panel-body">
+
+			<div class="col-xs-6 col-sm-4 col-md-3 col-lg-2 icon-holder">
+				<i class='wdf wdf-postgresql'></i> postgresql		
+			</div>
+
+			<div class="col-xs-6 col-sm-4 col-md-3 col-lg-2 icon-holder">
+				<i class='wdf wdf-mysql'></i> mysql		
+			</div>
+
+			<div class="col-xs-6 col-sm-4 col-md-3 col-lg-2 icon-holder">
+				<i class='wdf wdf-sqlite'></i> sqlite		
+			</div>
+
+			<div class="col-xs-6 col-sm-4 col-md-3 col-lg-2 icon-holder">
+				<i class='wdf wdf-mariadb'></i> mariadb		
+			</div>
+
+			<div class="col-xs-6 col-sm-4 col-md-3 col-lg-2 icon-holder">
+				<i class='wdf wdf-mongodb'></i> mongodb		
+			</div>
+
+			<div class="col-xs-6 col-sm-4 col-md-3 col-lg-2 icon-holder">
+				<i class='wdf wdf-oracle'></i> oracle		
+			</div>
+
+		</div>	
+	</div>
+
+		
+	<div class="panel">
+		<div class="panel-heading">
+			<h1 class="text-center">Platforms</h1>
+		</div>
+
+		<div class="panel-body">
+
+			<div class="col-xs-6 col-sm-4 col-md-3 col-lg-2 icon-holder">
+				<i class='wdf wdf-aws'></i> aws		
+			</div>
+
+			<div class="col-xs-6 col-sm-4 col-md-3 col-lg-2 icon-holder">
+				<i class='wdf wdf-google-cloud'></i> google-cloud
+			</div>
+
+			<div class="col-xs-6 col-sm-4 col-md-3 col-lg-2 icon-holder">
+				<i class='wdf wdf-digital-ocean'></i> digital-ocean
+			</div>
+
+			<div class="col-xs-6 col-sm-4 col-md-3 col-lg-2 icon-holder">
+				<i class='wdf wdf-heroku'></i> heroku	
+			</div>
+
+			<div class="col-xs-6 col-sm-4 col-md-3 col-lg-2 icon-holder">
+				<i class='wdf wdf-modulus'></i> modulus	
+			</div>
+
+			<div class="col-xs-6 col-sm-4 col-md-3 col-lg-2 icon-holder">
+				<i class='wdf wdf-azure'></i> azure	
+			</div>
+
+			<div class="col-xs-6 col-sm-4 col-md-3 col-lg-2 icon-holder">
+				<i class='wdf wdf-rackspace'></i> rackspace
+			</div>
+
+			<div class="col-xs-6 col-sm-4 col-md-3 col-lg-2 icon-holder">
+				<i class='wdf wdf-cloudify'></i> cloudify
+			</div>
+
+		</div>
+	</div>
+
+		
+	<div class="panel">
+		<div class="panel-heading">
+			<h1 class="text-center">Misc</h1>
+		</div>
+
+		<div class="panel-body">
+
+			<div class="col-xs-6 col-sm-4 col-md-3 col-lg-2 icon-holder">
+				<i class='wdf wdf-github'></i> github		
+			</div>
+
+			<div class="col-xs-6 col-sm-4 col-md-3 col-lg-2 icon-holder">
+				<i class='wdf wdf-bitbucket'></i> bitbucket	
+			</div>
+
+			<div class="col-xs-6 col-sm-4 col-md-3 col-lg-2 icon-holder">
+				<i class='wdf wdf-namecheap'></i> namecheap		
+			</div>
+
+			<div class="col-xs-6 col-sm-4 col-md-3 col-lg-2 icon-holder">
+				<i class='wdf wdf-gandi'></i> gandi	
+			</div>
+
+			<div class="col-xs-6 col-sm-4 col-md-3 col-lg-2 icon-holder">
+				<i class='wdf wdf-go-daddy'></i> go-daddy		
+			</div>
+
+			<div class="col-xs-6 col-sm-4 col-md-3 col-lg-2 icon-holder">
+				<i class='wdf wdf-squarespace'></i> squarespace	
+			</div>
+
+			<div class="col-xs-6 col-sm-4 col-md-3 col-lg-2 icon-holder">
+				<i class='wdf wdf-ghost'></i> ghost	
+			</div>
+
+
+		</div>
+	</div>
+
+
+
+
+
+</div>
+
+
+
+	<script src='https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js'></script>
+
+	<script>
+
+		function resize() {
+            var height = window.innerHeight;
+            document.getElementById("splash").style.height = height + "px";
+        }
+
+        resize();
+        window.onresize = function() {
+            resize();
+        };
+	</script>
+</body>
+</html>
