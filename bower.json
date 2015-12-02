@@ -6,6 +6,6 @@
     	"bower.json",
     	"readme.md",
     	".gitignore",
-    	"index.html",
+    	"index.html"
     ]
 }
