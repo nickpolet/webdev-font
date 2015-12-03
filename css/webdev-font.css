@@ -10,7 +10,7 @@
 }
 
 
-.wdf:before {
+.wd:before {
   font-family: "webdev-font";
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
@@ -26,411 +26,411 @@
 }
 
 
-.wdf-angular:before {
+.wd-angular:before {
   content: "\E001";
 }
 
-.wdf-aura:before {
+.wd-aura:before {
   content: "\E002";
 }
 
-.wdf-aws:before {
+.wd-aws:before {
   content: "\E003";
 }
 
-.wdf-azure:before {
+.wd-azure:before {
   content: "\E004";
 }
 
-.wdf-backbone:before {
+.wd-backbone:before {
   content: "\E005";
 }
 
-.wdf-bitbucket:before {
+.wd-bitbucket:before {
   content: "\E006";
 }
 
-.wdf-bootstrap:before {
+.wd-bootstrap:before {
   content: "\E007";
 }
 
-.wdf-bottle:before {
+.wd-bottle:before {
   content: "\E008";
 }
 
-.wdf-c:before {
+.wd-c:before {
   content: "\E009";
 }
 
-.wdf-cakephp:before {
+.wd-cakephp:before {
   content: "\E00A";
 }
 
-.wdf-celluloid:before {
+.wd-celluloid:before {
   content: "\E00B";
 }
 
-.wdf-cherry:before {
+.wd-cherry:before {
   content: "\E00C";
 }
 
-.wdf-cloudify:before {
+.wd-cloudify:before {
   content: "\E00D";
 }
 
-.wdf-codeigniter:before {
+.wd-codeigniter:before {
   content: "\E00E";
 }
 
-.wdf-cplusplus:before {
+.wd-cplusplus:before {
   content: "\E00F";
 }
 
-.wdf-csharp:before {
+.wd-csharp:before {
   content: "\E010";
 }
 
-.wdf-css:before {
+.wd-css:before {
   content: "\E011";
 }
 
-.wdf-cuba:before {
+.wd-cuba:before {
   content: "\E012";
 }
 
-.wdf-derby:before {
+.wd-derby:before {
   content: "\E013";
 }
 
-.wdf-digital-ocean:before {
+.wd-digital-ocean:before {
   content: "\E014";
 }
 
-.wdf-django:before {
+.wd-django:before {
   content: "\E015";
 }
 
-.wdf-dojo:before {
+.wd-dojo:before {
   content: "\E016";
 }
 
-.wdf-dotnet:before {
+.wd-dotnet:before {
   content: "\E017";
 }
 
-.wdf-elixir:before {
+.wd-elixir:before {
   content: "\E018";
 }
 
-.wdf-ember:before {
+.wd-ember:before {
   content: "\E019";
 }
 
-.wdf-erlang:before {
+.wd-erlang:before {
   content: "\E01A";
 }
 
-.wdf-express:before {
+.wd-express:before {
   content: "\E01B";
 }
 
-.wdf-flask:before {
+.wd-flask:before {
   content: "\E01C";
 }
 
-.wdf-foundation:before {
+.wd-foundation:before {
   content: "\E01D";
 }
 
-.wdf-gandi:before {
+.wd-gandi:before {
   content: "\E01E";
 }
 
-.wdf-ghost:before {
+.wd-ghost:before {
   content: "\E01F";
 }
 
-.wdf-github:before {
+.wd-github:before {
   content: "\E020";
 }
 
-.wdf-go-daddy:before {
+.wd-go-daddy:before {
   content: "\E021";
 }
 
-.wdf-go:before {
+.wd-go:before {
   content: "\E022";
 }
 
-.wdf-google-cloud:before {
+.wd-google-cloud:before {
   content: "\E023";
 }
 
-.wdf-google-web-toolkit:before {
+.wd-google-web-toolkit:before {
   content: "\E024";
 }
 
-.wdf-grails:before {
+.wd-grails:before {
   content: "\E025";
 }
 
-.wdf-grape:before {
+.wd-grape:before {
   content: "\E026";
 }
 
-.wdf-grunt:before {
+.wd-grunt:before {
   content: "\E027";
 }
 
-.wdf-gulp:before {
+.wd-gulp:before {
   content: "\E028";
 }
 
-.wdf-hapi:before {
+.wd-hapi:before {
   content: "\E029";
 }
 
-.wdf-haskell:before {
+.wd-haskell:before {
   content: "\E02A";
 }
 
-.wdf-heroku:before {
+.wd-heroku:before {
   content: "\E02B";
 }
 
-.wdf-html5:before {
+.wd-html5:before {
   content: "\E02C";
 }
 
-.wdf-ionic:before {
+.wd-ionic:before {
   content: "\E02D";
 }
 
-.wdf-java:before {
+.wd-java:before {
   content: "\E02E";
 }
 
-.wdf-javascript:before {
+.wd-javascript:before {
   content: "\E02F";
 }
 
-.wdf-jquery:before {
+.wd-jquery:before {
   content: "\E030";
 }
 
-.wdf-knockout:before {
+.wd-knockout:before {
   content: "\E031";
 }
 
-.wdf-laravel:before {
+.wd-laravel:before {
   content: "\E032";
 }
 
-.wdf-lisp:before {
+.wd-lisp:before {
   content: "\E033";
 }
 
-.wdf-lotus:before {
+.wd-lotus:before {
   content: "\E034";
 }
 
-.wdf-mariadb:before {
+.wd-mariadb:before {
   content: "\E035";
 }
 
-.wdf-materialize:before {
+.wd-materialize:before {
   content: "\E036";
 }
 
-.wdf-meanjs:before {
+.wd-meanjs:before {
   content: "\E037";
 }
 
-.wdf-meteor:before {
+.wd-meteor:before {
   content: "\E038";
 }
 
-.wdf-modulus:before {
+.wd-modulus:before {
   content: "\E039";
 }
 
-.wdf-mongodb:before {
+.wd-mongodb:before {
   content: "\E03A";
 }
 
-.wdf-mysql:before {
+.wd-mysql:before {
   content: "\E03B";
 }
 
-.wdf-namecheap:before {
+.wd-namecheap:before {
   content: "\E03C";
 }
 
-.wdf-nodejs:before {
+.wd-nodejs:before {
   content: "\E03D";
 }
 
-.wdf-oracle:before {
+.wd-oracle:before {
   content: "\E03E";
 }
 
-.wdf-pakyow:before {
+.wd-pakyow:before {
   content: "\E03F";
 }
 
-.wdf-phalcon:before {
+.wd-phalcon:before {
   content: "\E040";
 }
 
-.wdf-phoenix:before {
+.wd-phoenix:before {
   content: "\E041";
 }
 
-.wdf-php:before {
+.wd-php:before {
   content: "\E042";
 }
 
-.wdf-play:before {
+.wd-play:before {
   content: "\E043";
 }
 
-.wdf-polymer:before {
+.wd-polymer:before {
   content: "\E044";
 }
 
-.wdf-postgresql:before {
+.wd-postgresql:before {
   content: "\E045";
 }
 
-.wdf-purecss:before {
+.wd-purecss:before {
   content: "\E046";
 }
 
-.wdf-pyramid:before {
+.wd-pyramid:before {
   content: "\E047";
 }
 
-.wdf-python:before {
+.wd-python:before {
   content: "\E048";
 }
 
-.wdf-r:before {
+.wd-r:before {
   content: "\E049";
 }
 
-.wdf-rackspace:before {
+.wd-rackspace:before {
   content: "\E04A";
 }
 
-.wdf-rails:before {
+.wd-rails:before {
   content: "\E04B";
 }
 
-.wdf-react:before {
+.wd-react:before {
   content: "\E04C";
 }
 
-.wdf-ruby:before {
+.wd-ruby:before {
   content: "\E04D";
 }
 
-.wdf-rust:before {
+.wd-rust:before {
   content: "\E04E";
 }
 
-.wdf-sails:before {
+.wd-sails:before {
   content: "\E04F";
 }
 
-.wdf-snap:before {
+.wd-snap:before {
   content: "\E050";
 }
 
-.wdf-socketio:before {
+.wd-socketio:before {
   content: "\E051";
 }
 
-.wdf-socketstream:before {
+.wd-socketstream:before {
   content: "\E052";
 }
 
-.wdf-spark:before {
+.wd-spark:before {
   content: "\E053";
 }
 
-.wdf-spock:before {
+.wd-spock:before {
   content: "\E054";
 }
 
-.wdf-spring:before {
+.wd-spring:before {
   content: "\E055";
 }
 
-.wdf-sqlite:before {
+.wd-sqlite:before {
   content: "\E056";
 }
 
-.wdf-squarespace:before {
+.wd-squarespace:before {
   content: "\E057";
 }
 
-.wdf-sugar:before {
+.wd-sugar:before {
   content: "\E058";
 }
 
-.wdf-swift:before {
+.wd-swift:before {
   content: "\E059";
 }
 
-.wdf-symfony:before {
+.wd-symfony:before {
   content: "\E05A";
 }
 
-.wdf-teslajs:before {
+.wd-teslajs:before {
   content: "\E05B";
 }
 
-.wdf-tornado:before {
+.wd-tornado:before {
   content: "\E05C";
 }
 
-.wdf-totaljs:before {
+.wd-totaljs:before {
   content: "\E05D";
 }
 
-.wdf-turbogears:before {
+.wd-turbogears:before {
   content: "\E05E";
 }
 
-.wdf-uikit:before {
+.wd-uikit:before {
   content: "\E05F";
 }
 
-.wdf-vaadin:before {
+.wd-vaadin:before {
   content: "\E060";
 }
 
-.wdf-vue:before {
+.wd-vue:before {
   content: "\E061";
 }
 
-.wdf-webpy:before {
+.wd-webpy:before {
   content: "\E062";
 }
 
-.wdf-wordpress:before {
+.wd-wordpress:before {
   content: "\E063";
 }
 
-.wdf-yesod:before {
+.wd-yesod:before {
   content: "\E064";
 }
 
-.wdf-yii:before {
+.wd-yii:before {
   content: "\E065";
 }
 
-.wdf-zend:before {
+.wd-zend:before {
   content: "\E066";
 }
 
