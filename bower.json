@@ -1,6 +1,6 @@
 {
     "name": "webdev-font",
-    "version": "0.0.1",
+    "version": "0.1.1",
     "main":"css/webdev-font.css",
     "ignore": [
     	"bower.json",
