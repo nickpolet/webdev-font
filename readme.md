@@ -28,9 +28,9 @@ If you would like to manually include the font in your project, [download the pr
 
 # Usage
 
-If you've used font-awesome or one of the many font icon sets out there, then you find this very simple (just replace "fa" with "wdf"). It uses the following syntax to display all the icons,
+If you've used font-awesome or one of the many font icon sets out there, then you find this very simple (just replace "fa" with "wd"). It uses the following syntax to display all the icons,
 
-    <i class="wdf wdf-angular"></i>
-    <i class="wdf wdf-phoenix"></i>
-    <i class="wdf wdf-meteor"></i>
-    <i class="wdf wdf-laravel"></i>
+    <i class="wd wd-angular"></i>
+    <i class="wd wd-phoenix"></i>
+    <i class="wd wd-meteor"></i>
+    <i class="wd wd-laravel"></i>
