@@ -1,6 +1,6 @@
 # webdev-font
 
-#### Icon font for popular web frameworks and web related technologies
+Icon font for popular web frameworks and web related technologies
 
 
 ## [Show me the icons](http://nickpolet.github.io/webdev-font/)
