@@ -11,7 +11,7 @@ Icon font for popular web frameworks and web related technologies
 #### Using a CDN
 To get started quickly, paste the following snippet within the head tag of your .html file
 
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/webdev-font/0.1.0/css/webdev-font.min.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/webdev-font/0.1.1/css/webdev-font.min.css">
 
 
 #### Using bower
@@ -28,9 +28,10 @@ If you would like to manually include the font in your project, [download the pr
 
 # Usage
 
-If you've used font-awesome or one of the many font icon sets out there, then you find this very simple (just replace "fa" with "wd"). It uses the following syntax to display all the icons,
+If you've used font-awesome or one of the many font icon sets out there, then you find this very simple (just replace "fa" with "wd"). It uses the following syntax to display the icons,
 
     <i class="wd wd-angular"></i>
     <i class="wd wd-phoenix"></i>
     <i class="wd wd-meteor"></i>
     <i class="wd wd-laravel"></i>
+    etc...
