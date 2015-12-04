@@ -346,100 +346,96 @@
   content: "\E050";
 }
 
-.wd-sitepoint:before {
+.wd-snap:before {
   content: "\E051";
 }
 
-.wd-snap:before {
+.wd-socketio:before {
   content: "\E052";
 }
 
-.wd-socketio:before {
+.wd-socketstream:before {
   content: "\E053";
 }
 
-.wd-socketstream:before {
+.wd-spark:before {
   content: "\E054";
 }
 
-.wd-spark:before {
+.wd-spock:before {
   content: "\E055";
 }
 
-.wd-spock:before {
+.wd-spring:before {
   content: "\E056";
 }
 
-.wd-spring:before {
+.wd-sqlite:before {
   content: "\E057";
 }
 
-.wd-sqlite:before {
+.wd-squarespace:before {
   content: "\E058";
 }
 
-.wd-squarespace:before {
+.wd-sugar:before {
   content: "\E059";
 }
 
-.wd-sugar:before {
+.wd-swift:before {
   content: "\E05A";
 }
 
-.wd-swift:before {
+.wd-symfony:before {
   content: "\E05B";
 }
 
-.wd-symfony:before {
+.wd-teslajs:before {
   content: "\E05C";
 }
 
-.wd-teslajs:before {
+.wd-tornado:before {
   content: "\E05D";
 }
 
-.wd-tornado:before {
+.wd-totaljs:before {
   content: "\E05E";
 }
 
-.wd-totaljs:before {
+.wd-turbogears:before {
   content: "\E05F";
 }
 
-.wd-turbogears:before {
+.wd-uikit:before {
   content: "\E060";
 }
 
-.wd-uikit:before {
+.wd-vaadin:before {
   content: "\E061";
 }
 
-.wd-vaadin:before {
+.wd-vue:before {
   content: "\E062";
 }
 
-.wd-vue:before {
+.wd-webpy:before {
   content: "\E063";
 }
 
-.wd-webpy:before {
+.wd-wordpress:before {
   content: "\E064";
 }
 
-.wd-wordpress:before {
+.wd-yesod:before {
   content: "\E065";
 }
 
-.wd-yesod:before {
+.wd-yii:before {
   content: "\E066";
 }
 
-.wd-yii:before {
-  content: "\E067";
-}
-
 .wd-zend:before {
-  content: "\E068";
+  content: "\E067";
 }
 
 
