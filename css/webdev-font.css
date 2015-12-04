@@ -266,172 +266,180 @@
   content: "\E03C";
 }
 
-.wd-nodejs:before {
+.wd-nginx:before {
   content: "\E03D";
 }
 
-.wd-oracle:before {
+.wd-nodejs:before {
   content: "\E03E";
 }
 
-.wd-pakyow:before {
+.wd-oracle:before {
   content: "\E03F";
 }
 
-.wd-phalcon:before {
+.wd-pakyow:before {
   content: "\E040";
 }
 
-.wd-phoenix:before {
+.wd-phalcon:before {
   content: "\E041";
 }
 
-.wd-php:before {
+.wd-phoenix:before {
   content: "\E042";
 }
 
-.wd-play:before {
+.wd-php:before {
   content: "\E043";
 }
 
-.wd-polymer:before {
+.wd-play:before {
   content: "\E044";
 }
 
-.wd-postgresql:before {
+.wd-polymer:before {
   content: "\E045";
 }
 
-.wd-purecss:before {
+.wd-postgresql:before {
   content: "\E046";
 }
 
-.wd-pyramid:before {
+.wd-purecss:before {
   content: "\E047";
 }
 
-.wd-python:before {
+.wd-pyramid:before {
   content: "\E048";
 }
 
-.wd-r:before {
+.wd-python:before {
   content: "\E049";
 }
 
-.wd-rackspace:before {
+.wd-r:before {
   content: "\E04A";
 }
 
-.wd-rails:before {
+.wd-rackspace:before {
   content: "\E04B";
 }
 
-.wd-react:before {
+.wd-rails:before {
   content: "\E04C";
 }
 
-.wd-ruby:before {
+.wd-react:before {
   content: "\E04D";
 }
 
-.wd-rust:before {
+.wd-ruby:before {
   content: "\E04E";
 }
 
-.wd-sails:before {
+.wd-rust:before {
   content: "\E04F";
 }
 
-.wd-snap:before {
+.wd-sails:before {
   content: "\E050";
 }
 
-.wd-socketio:before {
+.wd-sitepoint:before {
   content: "\E051";
 }
 
-.wd-socketstream:before {
+.wd-snap:before {
   content: "\E052";
 }
 
-.wd-spark:before {
+.wd-socketio:before {
   content: "\E053";
 }
 
-.wd-spock:before {
+.wd-socketstream:before {
   content: "\E054";
 }
 
-.wd-spring:before {
+.wd-spark:before {
   content: "\E055";
 }
 
-.wd-sqlite:before {
+.wd-spock:before {
   content: "\E056";
 }
 
-.wd-squarespace:before {
+.wd-spring:before {
   content: "\E057";
 }
 
-.wd-sugar:before {
+.wd-sqlite:before {
   content: "\E058";
 }
 
-.wd-swift:before {
+.wd-squarespace:before {
   content: "\E059";
 }
 
-.wd-symfony:before {
+.wd-sugar:before {
   content: "\E05A";
 }
 
-.wd-teslajs:before {
+.wd-swift:before {
   content: "\E05B";
 }
 
-.wd-tornado:before {
+.wd-symfony:before {
   content: "\E05C";
 }
 
-.wd-totaljs:before {
+.wd-teslajs:before {
   content: "\E05D";
 }
 
-.wd-turbogears:before {
+.wd-tornado:before {
   content: "\E05E";
 }
 
-.wd-uikit:before {
+.wd-totaljs:before {
   content: "\E05F";
 }
 
-.wd-vaadin:before {
+.wd-turbogears:before {
   content: "\E060";
 }
 
-.wd-vue:before {
+.wd-uikit:before {
   content: "\E061";
 }
 
-.wd-webpy:before {
+.wd-vaadin:before {
   content: "\E062";
 }
 
-.wd-wordpress:before {
+.wd-vue:before {
   content: "\E063";
 }
 
-.wd-yesod:before {
+.wd-webpy:before {
   content: "\E064";
 }
 
-.wd-yii:before {
+.wd-wordpress:before {
   content: "\E065";
 }
 
-.wd-zend:before {
+.wd-yesod:before {
   content: "\E066";
+}
+
+.wd-yii:before {
+  content: "\E067";
+}
+
+.wd-zend:before {
+  content: "\E068";
 }
 
 
