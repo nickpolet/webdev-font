@@ -11,7 +11,7 @@ Icon font for popular web frameworks and web related technologies
 #### Using a CDN
 To get started quickly, paste the following snippet within the head tag of your .html file
 
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/webdev-font/0.1.3/css/webdev-font.min.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/webdev-font/0.1.4/css/webdev-font.min.css">
 
 
 #### Using bower
