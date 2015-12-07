@@ -9,20 +9,17 @@
     url('../fonts/webdev-font.svg#webdev-font') format('svg');
 }
 
-
-.wd:before {
-  font-family: "webdev-font";
+.wd {
+  display: inline-block;
+  font: normal normal normal 14px/1 webdev-font;
+  font-size: inherit;
+  text-rendering: auto;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  text-rendering: auto;
-  font-style: normal;
-  font-variant: normal;
-  font-weight: normal;
-  font-size:1em;
-  /* speak: none; only necessary if not using the private unicode range (firstGlyph option) */
-  text-decoration: none;
-  text-transform: none;
-  vertical-align: middle;
+}
+
+.wd:before {
+  /*vertical-align: middle;*/
 }
 
 
