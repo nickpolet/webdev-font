@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   width="1000"
+   height="1000"
+   id="svg4955"
+   version="1.1"
+   inkscape:version="0.48.4 r9939"
+   sodipodi:docname="express.svg">
+  <defs
+     id="defs5498" />
+  <sodipodi:namedview
+     inkscape:window-height="1056"
+     inkscape:window-width="1920"
+     inkscape:pageshadow="2"
+     inkscape:pageopacity="0.0"
+     borderopacity="1.0"
+     bordercolor="#666666"
+     pagecolor="#ffffff"
+     id="base"
+     showgrid="false"
+     showguides="true"
+     inkscape:guide-bbox="true"
+     inkscape:zoom="0.35575773"
+     inkscape:cx="617.67536"
+     inkscape:cy="427.98639"
+     inkscape:window-x="0"
+     inkscape:window-y="24"
+     inkscape:current-layer="layer6"
+     inkscape:window-maximized="1" />
+  <metadata
+     id="metadata5594">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <dc:title />
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <g
+     inkscape:groupmode="layer"
+     id="layer6"
+     inkscape:label="Layer#2"
+     style="display:inline">
+    <g
+       style="font-size:269.74539185px;font-style:normal;font-weight:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;font-family:Sans"
+       id="text7081"
+       transform="matrix(4.9974641,0,0,4.9974641,-64.037809,-1861.9058)">
+      <path
+         d="m 113.53917,545.04749 c -9.17142,0 -17.893176,-1.88822 -26.165306,-5.66465 -8.092408,-3.95626 -15.195696,-9.26125 -21.309886,-15.91498 -6.114255,-6.83353 -10.969668,-14.65613 -14.566251,-23.46785 -3.59662,-8.99146 -5.394921,-18.52246 -5.394908,-28.59301 -1.3e-5,-9.89058 1.708373,-19.15183 5.125162,-27.78378 3.416754,-8.63174 8.092336,-16.18461 14.026761,-22.65861 6.114191,-6.47376 13.127564,-11.509 21.04014,-15.10574 8.092301,-3.7763 16.724148,-5.66451 25.895558,-5.66465 9.35109,1.4e-4 18.07284,1.88835 26.1653,5.66465 8.27208,3.77657 15.37537,8.90172 21.30989,15.37549 6.1141,6.474 10.96951,14.11678 14.56625,22.92835 3.59646,8.81178 5.39476,18.25286 5.39491,28.32327 l 0,2.9672 -128.129063,0 c 0.719302,8.99157 2.787348,17.44358 6.204144,25.35607 3.596577,7.73273 8.182244,14.47636 13.757015,20.2309 5.574694,5.75458 11.958662,10.34025 19.151923,13.75702 7.372976,3.23694 15.105671,4.85542 23.198101,4.85541 5.39482,1e-5 10.6099,-0.71931 15.64524,-2.15796 5.21497,-1.43864 10.07038,-3.41677 14.56625,-5.9344 4.49564,-2.69744 8.4519,-5.84447 11.86879,-9.44109 3.41665,-3.59658 6.1141,-7.55284 8.09237,-11.8688 l 5.12516,1.34873 c -1.97827,4.85544 -4.85555,9.3512 -8.63185,13.48727 -3.59673,3.95628 -7.91266,7.46297 -12.94778,10.52007 -4.85553,2.87729 -10.25043,5.12517 -16.18473,6.74364 -5.75466,1.7983 -11.68905,2.69745 -17.80319,2.69745 m 60.42296,-74.98922 c -0.53963,-9.35109 -2.51776,-17.98293 -5.93439,-25.89556 -3.41691,-7.91242 -7.91266,-14.65605 -13.48727,-20.2309 -5.39503,-5.75444 -11.68908,-10.2502 -18.88218,-13.48727 -7.19331,-3.23681 -14.926,-4.85528 -23.1981,-4.85542 -8.27227,1.4e-4 -16.004961,1.61861 -23.198108,4.85542 -7.193259,3.23707 -13.577227,7.73283 -19.151923,13.48727 -5.394939,5.75468 -9.710861,12.58822 -12.947779,20.50065 -3.236965,7.91262 -5.125181,16.45455 -5.664653,25.62581 l 122.464403,0"
+         style="font-variant:normal;font-weight:100;font-stretch:normal;text-align:start;line-height:125%;writing-mode:lr-tb;text-anchor:start;font-family:Raleway;-inkscape-font-specification:Raleway Thin"
+         id="path7086"
+         inkscape:connector-curvature="0" />
+    </g>
+  </g>
+  <g
+     inkscape:groupmode="layer"
+     id="layer5"
+     inkscape:label="Layer#1"
+     style="display:inline" />
+</svg>

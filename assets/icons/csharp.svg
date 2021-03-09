@@ -1,0 +1,150 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   width="1000"
+   height="1000"
+   id="svg4955"
+   version="1.1"
+   inkscape:version="0.48.4 r9939"
+   sodipodi:docname="csharp.svg">
+  <defs
+     id="defs5498" />
+  <sodipodi:namedview
+     inkscape:window-height="1056"
+     inkscape:window-width="1920"
+     inkscape:pageshadow="2"
+     inkscape:pageopacity="0.0"
+     borderopacity="1.0"
+     bordercolor="#666666"
+     pagecolor="#ffffff"
+     id="base"
+     showgrid="false"
+     showguides="false"
+     inkscape:guide-bbox="true"
+     inkscape:zoom="0.5"
+     inkscape:cx="328.87591"
+     inkscape:cy="673.07837"
+     inkscape:window-x="0"
+     inkscape:window-y="24"
+     inkscape:current-layer="layer11"
+     inkscape:window-maximized="1">
+    <sodipodi:guide
+       orientation="0,1"
+       position="189.44385,479.26189"
+       id="guide7179" />
+    <sodipodi:guide
+       orientation="1,0"
+       position="429.5717,650.94149"
+       id="guide7232" />
+    <sodipodi:guide
+       orientation="0,1"
+       position="423.85732,718.7686"
+       id="guide7234" />
+    <sodipodi:guide
+       orientation="0,1"
+       position="407.21111,603.48736"
+       id="guide7236" />
+    <sodipodi:guide
+       orientation="1,0"
+       position="330.68822,603.48736"
+       id="guide7238" />
+    <sodipodi:guide
+       orientation="1,0"
+       position="526.71602,603.48736"
+       id="guide7240" />
+    <sodipodi:guide
+       orientation="0,1"
+       position="429.5717,709.07902"
+       id="guide7242" />
+    <sodipodi:guide
+       orientation="0,1"
+       position="429.5717,618.89132"
+       id="guide7244" />
+    <sodipodi:guide
+       orientation="1,0"
+       position="421.62126,644.23332"
+       id="guide7246" />
+    <sodipodi:guide
+       orientation="1,0"
+       position="370.68882,649.20234"
+       id="guide7248" />
+    <sodipodi:guide
+       orientation="1,0"
+       position="377.397,646.46938"
+       id="guide7250" />
+    <sodipodi:guide
+       orientation="0,1"
+       position="401.99364,699.63788"
+       id="guide7252" />
+    <sodipodi:guide
+       orientation="0,1"
+       position="402.73899,694.42041"
+       id="guide7254" />
+    <sodipodi:guide
+       orientation="0,1"
+       position="412.67703,632.80457"
+       id="guide7258" />
+    <sodipodi:guide
+       orientation="0,1"
+       position="421.62126,626.0964"
+       id="guide7260" />
+    <sodipodi:guide
+       orientation="1,0"
+       position="469.5723,641.50036"
+       id="guide7262" />
+    <sodipodi:guide
+       orientation="1,0"
+       position="390.5649,658.14657"
+       id="guide7264" />
+    <sodipodi:guide
+       orientation="1,0"
+       position="384.10517,643.23951"
+       id="guide7266" />
+    <sodipodi:guide
+       orientation="1,0"
+       position="407.45956,632.80457"
+       id="guide7268" />
+  </sodipodi:namedview>
+  <metadata
+     id="metadata5594">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <dc:title></dc:title>
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <g
+     inkscape:groupmode="layer"
+     id="layer11"
+     inkscape:label="Layer"
+     style="opacity:1">
+    <g
+       style="font-size:634.59417725px;font-style:normal;font-weight:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;font-family:Sans"
+       id="text8220">
+      <path
+         d="m 481.0724,304.01329 0,66.00028 c -21.07089,-19.62412 -43.5874,-34.29083 -67.54957,-44.00019 -23.75629,-9.70854 -49.06153,-14.56302 -75.91581,-14.56344 -52.88306,4.2e-4 -93.37145,16.21644 -121.46529,48.64809 -28.09413,32.22583 -42.14112,78.91142 -42.14102,140.05692 -1e-4,60.93939 14.04689,107.62498 42.14102,140.05692 28.09384,32.22554 68.58223,48.33827 121.46529,48.33823 26.85428,4e-5 52.15952,-4.85444 75.91581,-14.56344 23.96217,-9.7089 46.47868,-24.37561 67.54957,-44.00019 l 0,65.38056 c -21.89719,14.87332 -45.1367,26.02828 -69.7186,33.46492 -24.376,7.43665 -50.19767,11.15497 -77.4651,11.15498 -70.02866,-10e-6 -125.18376,-21.38036 -165.46548,-64.14111 -40.28191,-42.96722 -60.42282,-101.53078 -60.42278,-175.69087 -4e-5,-74.3662 20.14087,-132.92976 60.42278,-175.69087 40.28172,-42.96686 95.43682,-64.4505 165.46548,-64.45097 27.68057,4.7e-4 53.70882,3.71879 78.08483,11.15498 24.58189,7.23053 47.61483,18.17892 69.09887,32.8452"
+         style="font-variant:normal;font-stretch:normal;text-align:start;line-height:125%;writing-mode:lr-tb;text-anchor:start;font-family:Sans;-inkscape-font-specification:Sans"
+         id="path8253" />
+    </g>
+    <g
+       style="font-size:520.7479248px;font-style:normal;font-weight:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;font-family:Sans"
+       id="text8224">
+      <path
+         d="m 717.56934,311.90145 -26.44423,105.52265 74.24726,0 26.69851,-105.52265 40.68343,0 -26.18996,105.52265 85.43521,0 -9.91659,39.15781 -85.43521,0 -20.85026,84.92666 86.4523,0 -9.15378,38.90353 -87.2151,0 -26.44423,105.26838 -40.68343,0 26.18995,-105.26838 -74.50153,0 -26.18996,105.26838 -40.9377,0 26.44423,-105.26838 -83.90958,0 9.40804,-38.90353 83.90958,0 21.3588,-84.92666 -85.4352,0 9.91658,-39.15781 85.43521,0 25.93569,-105.52265 41.19197,0 m 38.14072,144.68046 -73.99299,0 -21.3588,84.92666 74.50153,0 20.85026,-84.92666"
+         style="font-style:italic;font-variant:normal;font-stretch:normal;text-align:start;line-height:125%;writing-mode:lr-tb;text-anchor:start;font-family:Sans;-inkscape-font-specification:Sans Italic"
+         id="path8250" />
+    </g>
+  </g>
+</svg>

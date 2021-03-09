@@ -1,0 +1,559 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <title>webdev-font</title>
+
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
+
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;700;900&display=swap" rel="stylesheet"> 
+
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@0.9.1/css/bulma.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css" integrity="sha512-HK5fgLBL+xu6dm/Ii3z4xhlSUyZgTT9tuc/hSrtw6uzJOvgRr2a9jyxxT1ely+B+xFAmJKVSTbpM/CuL7qxO8w==" crossorigin="anonymous" />
+
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/nickpolet/webdev-font/dist/webdev-font.min.css">
+
+    <style>
+        body {
+            font-family: 'Montserrat', sans-serif;
+            margin: 0;
+            padding: 0px;
+            background: #22252B;
+            color: #fff;
+            scroll-behavior: smooth;
+        }
+        .preview .inner {
+            display: inline-block;
+            width: 100%;
+            text-align: center;
+            background: rgba(0,0,0,0.1);
+            -webkit-border-radius: 3px 3px 0 0;
+            -moz-border-radius: 3px 3px 0 0;
+            border-radius: 3px 3px 0 0;
+        }
+        .preview .inner {{ baseTag }} {
+            line-height: 120px;
+            font-size: 80px;
+            color: #fff;
+        }
+
+        .preview .inner:hover {
+            background: #fff;
+            color: #444;
+        }
+
+        pre {
+            border: 1px solid rgba(255,255,255,0.25);
+        }
+        pre .tag {
+            background: none;
+            font-size: 1rem;
+            display: inline-block;
+            padding: 0px;
+            height: auto;
+        }
+
+        .label {
+            display: inline-block;
+            width: 100%;
+            box-sizing: border-box;
+            padding: 8px;
+            font-size: 12px;
+            font-family: Monaco, monospace;
+            color: #666;
+            white-space: nowrap;
+            overflow: hidden;
+            text-overflow: ellipsis;
+            background: #eee;
+            background: rgba(0,0,0,0.1);
+            -webkit-border-radius: 0 0 3px 3px;
+            -moz-border-radius: 0 0 3px 3px;
+            border-radius: 0 0 3px 3px;
+            color: #eee;
+            font-weight: 400;
+        }
+
+        h1,h2,h3,h4,h5,h6 {
+			font-weight: 900 !important;
+		}
+
+
+        .is-hidden {
+            display: none;
+        }
+
+		#github-link {
+			position: absolute;
+			top:10px;
+			right:10px;
+		}
+
+
+		#splash {
+			position: relative;
+			background: #FD9800;
+			color:#fff;
+		}
+
+
+
+		#splash-icon-fade {
+			position: absolute;
+			top:0px;
+			left:0px;
+			width:100%;
+			height:100%;
+            background: linear-gradient(0deg, rgba(253,152,0,1) 0%, rgba(253,152,0,0) 100%);
+
+		}
+		#getting-started {
+			position: relative;
+			background: rgba(255,255,255, 0.01);
+			color:#fff;
+		}
+
+		#usage {
+			position: relative;
+			background: #555;
+			color:#fff;
+			padding-bottom: 80px;
+			margin-bottom: 100px;
+		}
+
+		#usage h2 {
+			margin-top: 50px;
+		}
+
+
+		#usage h1 {
+			margin:0px;
+			padding: 50px 0px;
+		}
+
+		.usage-example, .usage-box {
+		}
+
+		.usage-box-icon {
+			font-size: 4em;
+		}
+
+		.usage-grey-text {
+			color:#999;
+		}
+
+		.icon-holder i {
+			color:#444;
+			font-size: 5em;
+			display:block;
+		}
+
+		.icon-holder {
+			text-align: center;
+			color:#bbb;
+			margin-bottom: 60px;
+			padding:20px 0px;
+		}
+
+		.icon-holder:hover {
+			color:#fff;
+			background: #444;
+		}
+
+		.icon-holder:hover i {
+			color:#fff;
+		}
+
+		.panel {
+			margin-bottom: 70px;
+		}
+
+		.panel-heading > h1 {
+			color:#ccc;
+		}
+
+		#footer {
+			width:100%;
+			padding:100px 0px;
+			text-align: center;
+			background: rgba(0,0,0,0.4);
+			color:#fff;
+		}
+    </style>
+
+</head>
+<body>
+
+    <div id="splash">
+
+	<a href="https://github.com/nickpolet/webdev-font">
+		<div id="github-link" class="has-text-white">
+			<i class='wd-github'></i> View on github
+		</div>
+	</a>
+
+    <div class="container">
+
+        <div class="columns reverse-column-order-touch">
+            <div class="column is-vcentered">
+                <div class="content">
+                    <br>
+                    <br>
+                    <br>
+                    <br>
+                    <br>
+                    <br>
+                    <br>
+                    <p class="help is-marginless">
+                        Icon font
+                    </p>
+                    <h1 class='has-text-white is-size-1 is-marginless'>webdev-font</h1>
+
+                    <p class="is-size-5">
+                        Icon font for popular web frameworks and web related technologies.
+                    </p>
+
+                    <a class="button is-rounded is-dark has-text-weight-bold" href="#search-container">
+                        Show me the icons
+                    </a>
+
+                    <br class="is-hidden-touch">
+                    <br class="is-hidden-touch">
+                    <br class="is-hidden-touch">
+                </div>
+
+            </div>
+            <div class="column is-4">
+
+                <br class="is-hidden-touch">
+                <br class="is-hidden-touch">
+                <br class="is-hidden-touch">
+
+                <div class="columns is-size-1 is-multiline is-mobile" style="position: relative;">
+
+                    <div id="splash-icon-fade"></div>
+
+                    <div class="column is-2">
+                        <i class='wd wd-angular'></i>
+                    </div>
+
+                    <div class="column is-2">
+                        <i class="wd wd-react"></i>
+                    </div>
+                    <div class="column is-2">
+                        <i class="wd wd-haskell"></i>
+                    </div>
+                    <div class="column is-2">
+                        <i class="wd wd-ruby"></i>
+                    </div>
+                    <div class="column is-2">
+                        <i class="wd wd-django"></i>
+                    </div>
+                    <div class="column is-2">
+                        <i class="wd wd-meteor"></i>
+                    </div>
+                    <div class="column is-2">
+                        <i class="wd wd-vue"></i>
+                    </div>
+                    <div class="column is-2">
+                        <i class="wd wd-meanjs"></i>
+                    </div>
+                    <div class="column is-2">
+                        <i class="wd wd-derby"></i>
+                    </div>
+                    <div class="column is-2">
+                        <i class="wd wd-knockout"></i>
+                    </div>
+                    <div class="column is-2">
+                        <i class="wd wd-aws"></i>
+                    </div>
+                    <div class="column is-2">
+                        <i class="wd wd-turbogears"></i>
+                    </div>
+                    <div class="column is-2 is-hidden-touch">
+                        <i class="wd wd-lotus"></i>
+                    </div>
+                    <div class="column is-2 is-hidden-touch">
+                        <i class="wd wd-codeigniter"></i>
+                    </div>
+                    <div class="column is-2 is-hidden-touch">
+                        <i class="wd wd-laravel"></i>
+                    </div>
+                    <div class="column is-2 is-hidden-touch">
+                        <i class="wd wd-yii"></i>
+                    </div>
+                    <div class="column is-2 is-hidden-touch">
+                        <i class="wd wd-play"></i>
+                    </div>
+                    <div class="column is-2 is-hidden-touch">
+                        <i class="wd wd-digital-ocean"></i>
+                    </div>
+                    <div class="column is-2 is-hidden-touch">
+                        <i class="wd wd-symfony"></i>
+                    </div>
+                    <div class="column is-2 is-hidden-touch">
+                        <i class="wd wd-aura"></i>
+                    </div>
+                    <div class="column is-2 is-hidden-touch">
+                        <i class="wd wd-zend"></i>
+                    </div>
+                    <div class="column is-2 is-hidden-touch">
+                        <i class="wd wd-phalcon"></i>
+                    </div>
+                    <div class="column is-2 is-hidden-touch">
+                        <i class="wd wd-vaadin"></i>
+                    </div>
+                    <div class="column is-2 is-hidden-touch">
+                        <i class="wd wd-spock"></i>
+                    </div>
+
+                </div>
+
+                <br>
+                <br>
+                <br>
+                		
+            </div>
+        </div>
+    </div>
+
+
+</div>
+
+<div id='getting-started'>
+
+	
+
+
+	<div class="container content">
+
+        <br>
+        <br>
+
+        <h2 class='is-size-3 has-text-white'>Getting Started</h2>
+
+        <br>
+
+        <h4 class="has-text-white">Using a CDN</h4>
+
+        <p>
+            To get started quickly, paste the following snippet within the head tag of your .html file. This uses jsdelivr to act as the CDN for this repository.
+        </p>
+
+        <pre class="language-html"><code>&lt;link&nbsp;rel="stylesheet"&nbsp;href="https://cdn.jsdelivr.net/gh/nickpolet/webdev-font/dist/webdev-font.min.css"&gt;</code></pre>
+
+        <br>
+        <br>
+
+		<h4 class="has-text-white">Going DIY</h4>
+
+		<p>
+			If you would like to manually include the font in your project, <a class="has-text-primary" href='https://github.com/nickpolet/webdev-font/archive/master.zip'>download the project</a> from <a class="has-text-primary" href='https://github.com/nickpolet/webdev-font'>github</a> and copy the "dist" folder into your project. You can then link the to the css file using the standard...
+		</p>
+
+		<pre class="language-html"><code>&lt;link&nbsp;rel="stylesheet"&nbsp;href="/path/to/dist/webdev-font.min.css"&gt;</code></pre>
+
+        <p>
+            <i>
+                Please make sure you copy over the woff, woff2 & eot files. The stylesheets has relative references to them, so if you change the location of the font files, you'll need to update the paths inside of webdev-font.css.
+            </i>
+        </p>
+
+        <br>
+        <hr>
+        <br>
+
+        <h2 class="has-text-white">
+            Usage
+        </h2>
+
+        <p>If you've used font-awesome or one of the many font icon sets out there, then you find this very simple (just replace "fa" with "wd").</p>
+
+        <p>
+            Using &lt;i&gt; tags in html, use the class attribute to show different icons. 
+        </p>
+
+        <div class="columns is-mobile">
+            <div class="column is-4-desktop is-8-touch">
+                <pre class="language-html"><code>&lt;i class=&quot;wd wd-react&quot;&gt;&lt;/i&gt;</code></pre>
+            </div>
+            <div class="column is-narrow is-flex is-align-items-center">
+                <i class="fas fa-angle-right"></i>
+            </div>
+            <div class="column is-flex is-align-items-center">
+                <i class="wd wd-react is-size-3"></i>
+            </div>
+        </div>
+
+        <div class="columns is-mobile">
+            <div class="column is-4-desktop is-8-touch">
+                <pre class="language-html"><code>&lt;i class=&quot;wd wd-vue&quot;&gt;&lt;/i&gt;</code></pre>
+            </div>
+            <div class="column is-narrow is-flex is-align-items-center">
+                <i class="fas fa-angle-right"></i>
+            </div>
+            <div class="column is-flex is-align-items-center">
+                <i class="wd wd-vue is-size-3"></i>
+            </div>
+        </div>
+
+        <div class="columns is-mobile">
+            <div class="column is-4-desktop is-8-touch">
+                <pre class="language-html"><code>&lt;i class=&quot;wd wd-github&quot;&gt;&lt;/i&gt;</code></pre>
+            </div>
+            <div class="column is-narrow is-flex is-align-items-center">
+                <i class="fas fa-angle-right"></i>
+            </div>
+            <div class="column is-flex is-align-items-center">
+                <i class="wd wd-github is-size-3"></i>
+            </div>
+        </div>
+
+        <br>
+        <br>
+	
+	</div>
+
+</div> 
+
+
+    {{!-- Search bar --}}
+    <div style="padding: 2rem; text-align: center; background: #1F2127; position: sticky; top:0px;" id="search-container">
+        <div class="container">
+            <div class="field">
+                <div class="control has-icons-left">
+                    <input class="input is-medium is-rounded has-text-weight-bold" type="text" placeholder="Search {{ assets.length }} icons..." id="search-input">
+                    <span class="icon is-small is-left">
+                    <i class="fas fa-search"></i>
+                    </span>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    {{!-- List of icons --}}
+    <div id="icon-list" style="padding: 2rem; text-align: center; background: #1F2127;">
+        <div class="columns is-multiline is-mobile is-centered">
+            {{# each assets }}
+                <div class="preview column is-2-desktop is-6-touch" id="{{ @key }}">
+                    <span class="inner">
+                        <{{ ../tag }} class="{{ ../prefix }} {{ ../prefix }}-{{ @key }}"></{{ ../tag }}>
+                    </span>
+                    <br>
+                    <span class='label'>{{ @key }}</span>
+                </div>
+            {{/ each }}
+
+            <div class="column is-12 is-hidden" id="no-results">
+                No results
+            </div>
+        </div>
+    </div>
+
+    <div class="container content">
+        <br>
+        <br>
+
+        <h2 class="is-size-3 has-text-white">
+            Adding your own icons
+        </h2>
+
+        <p>
+            First of all, we'll need to clone this git repository with
+        </p>
+
+        <pre><code class="language-bash">git clone https://github.com/nickpolet/webdev-font.git</code></pre>
+        <br>
+
+
+        <p>
+            Then we'll need to install the javascript dependancies.
+        </p>
+
+        <pre><code class="language-bash">yarn install</code></pre>
+        <br>
+
+        <p>
+            Add your own icons into the assets/icons folder. At the moment, these need to be SVG files, with the canvas set to 1000 x 1000px. You can use inkscape or any other vector graphics program to create these.
+        </p>
+
+        <p>
+            Once you've added in any icons, run 
+        </p>
+
+        <pre><code class="language-bash">yarn run build</code></pre>
+
+        <p>
+            The generated CSS and font files will be available into the 'dist' folder. There is also a 'webdev-font.html' file which is this the same as this page, but with any updated icons.
+        </p>
+
+        <br>
+        <br>
+
+    </div>
+
+    {{!-- Footer --}}
+    <div id="footer">
+        <p>If you have any suggestions for new icons, please <a href='https://github.com/nickpolet/webdev-font/issues' target='_blank' class="has-text-primary">create and issue on github</a>
+
+        <br>
+        <br>
+        <br>
+
+        <p>Put together by</p>
+        <p><b>Nick Polet</b></p>
+        <br>
+        <p>
+            <a href="https://github.com/nickpolet/webdev-font">
+                <i class='wd wd-github is-size-4'></i>
+            </a>
+        </p>
+    </div>
+
+
+    {{!-- Scripts --}}
+    <script
+        src="https://code.jquery.com/jquery-3.6.0.slim.min.js"
+        integrity="sha256-u7e5khyithlIdTpu22PHhENmPcRdFiHRjhAuHcs05RI="
+        crossorigin="anonymous"></script>
+
+    <script src="https://cdn.jsdelivr.net/npm/prismjs@1.23.0/prism.min.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/prismjs@1.23.0/themes/prism-okaidia.css">
+
+    <script>
+        // Simple Search script that runs through the divs and checks their id against the search termr
+        $('#search-input').on("keyup", function(event) {
+
+            // Get the search term
+            var search = event.target.value;
+            var hasResults = false;
+
+            if(search != "") {
+                // Loop through each preview div
+                $('.preview').each(function(element, index) {
+                    var text = $(this).attr("id");
+                    if(text.includes(search)) {
+                        $(this).removeClass("is-hidden");
+                        hasResults = true;
+                    } else {
+                        $(this).addClass("is-hidden");
+                    }
+                })
+
+                if(hasResults == false) {
+                    $('#no-results').removeClass("is-hidden");
+                }
+            } else {
+                // Reset all the div visibilities
+                $('.preview').each(function(element, index) {
+                    $(this).removeClass("is-hidden");
+                });
+                $('#no-results').addClass("is-hidden");
+            }
+        })
+    </script>
+</body>
+</html>

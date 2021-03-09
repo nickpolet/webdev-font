@@ -1,0 +1,16 @@
+{
+  "name": "webdev-font",
+  "version": "0.1.5",
+  "description": "Icon font set for web development tools, libraries and frameworks.",
+  "main": "build.js",
+  "repository": "https://github.com/nickpolet/webdev-font.git",
+  "author": "Nick Polet <nickpolet@gmail.com>",
+  "license": "MIT",
+  "dependencies": {
+    "clean-css": "^5.1.1",
+    "fantasticon": "^1.1.1"
+  },
+  "scripts": {
+    "build": "node build --watch"
+  }
+}
