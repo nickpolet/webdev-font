@@ -13,7 +13,7 @@ Icon font for popular web frameworks and web related technologies. Currently con
 #### Using a CDN
 To get started quickly, paste the following snippet within the head tag of your .html file
 
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/nickpolet/webdev-font/dist/webdev-font.min.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/nickpolet/webdev-font@latest/dist/webdev-font.min.css">
 
 
 #### Going DIY
