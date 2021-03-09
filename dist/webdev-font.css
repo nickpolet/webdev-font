@@ -1,8 +1,8 @@
 @font-face {
     font-family: "webdev-font";
-    src: url("./webdev-font.eot?3f9b2956b2645ec551be8c11b7cb1a42#iefix") format("embedded-opentype"),
-url("./webdev-font.woff2?3f9b2956b2645ec551be8c11b7cb1a42") format("woff2"),
-url("./webdev-font.woff?3f9b2956b2645ec551be8c11b7cb1a42") format("woff");
+    src: url("./webdev-font.eot?f5bc8bddb1a06ce0e458a14106356a20#iefix") format("embedded-opentype"),
+url("./webdev-font.woff2?f5bc8bddb1a06ce0e458a14106356a20") format("woff2"),
+url("./webdev-font.woff?f5bc8bddb1a06ce0e458a14106356a20") format("woff");
 }
 
 i[class^="wd-"]:before, i[class*=" wd-"]:before {
@@ -88,258 +88,264 @@ i[class^="wd-"]:before, i[class*=" wd-"]:before {
 .wd-django:before {
     content: "\f118";
 }
-.wd-dojo:before {
+.wd-docker:before {
     content: "\f119";
 }
-.wd-dotnet:before {
+.wd-dojo:before {
     content: "\f11a";
 }
-.wd-elixir:before {
+.wd-dotnet:before {
     content: "\f11b";
 }
-.wd-ember:before {
+.wd-elixir:before {
     content: "\f11c";
 }
-.wd-erlang:before {
+.wd-ember:before {
     content: "\f11d";
 }
-.wd-express:before {
+.wd-erlang:before {
     content: "\f11e";
 }
-.wd-flask:before {
+.wd-express:before {
     content: "\f11f";
 }
-.wd-foundation:before {
+.wd-flask:before {
     content: "\f120";
 }
-.wd-gandi:before {
+.wd-foundation:before {
     content: "\f121";
 }
-.wd-ghost:before {
+.wd-gandi:before {
     content: "\f122";
 }
-.wd-git:before {
+.wd-ghost:before {
     content: "\f123";
 }
-.wd-github:before {
+.wd-git:before {
     content: "\f124";
 }
-.wd-go-daddy:before {
+.wd-github:before {
     content: "\f125";
 }
-.wd-go:before {
+.wd-go-daddy:before {
     content: "\f126";
 }
-.wd-google-cloud:before {
+.wd-go:before {
     content: "\f127";
 }
-.wd-google-web-toolkit:before {
+.wd-google-cloud:before {
     content: "\f128";
 }
-.wd-grails:before {
+.wd-google-web-toolkit:before {
     content: "\f129";
 }
-.wd-grape:before {
+.wd-grails:before {
     content: "\f12a";
 }
-.wd-grunt:before {
+.wd-grape:before {
     content: "\f12b";
 }
-.wd-gulp:before {
+.wd-grunt:before {
     content: "\f12c";
 }
-.wd-gunicorn:before {
+.wd-gulp:before {
     content: "\f12d";
 }
-.wd-hapi:before {
+.wd-gunicorn:before {
     content: "\f12e";
 }
-.wd-haskell:before {
+.wd-hapi:before {
     content: "\f12f";
 }
-.wd-heroku:before {
+.wd-haskell:before {
     content: "\f130";
 }
-.wd-html5:before {
+.wd-heroku:before {
     content: "\f131";
 }
-.wd-ionic:before {
+.wd-html5:before {
     content: "\f132";
 }
-.wd-java:before {
+.wd-ionic:before {
     content: "\f133";
 }
-.wd-javascript:before {
+.wd-java:before {
     content: "\f134";
 }
-.wd-jquery:before {
+.wd-javascript:before {
     content: "\f135";
 }
-.wd-knockout:before {
+.wd-jquery:before {
     content: "\f136";
 }
-.wd-laravel:before {
+.wd-knockout:before {
     content: "\f137";
 }
-.wd-lisp:before {
+.wd-laravel:before {
     content: "\f138";
 }
-.wd-lotus:before {
+.wd-lisp:before {
     content: "\f139";
 }
-.wd-mariadb:before {
+.wd-lotus:before {
     content: "\f13a";
 }
-.wd-materialize:before {
+.wd-mariadb:before {
     content: "\f13b";
 }
-.wd-meanjs:before {
+.wd-materialize:before {
     content: "\f13c";
 }
-.wd-meteor:before {
+.wd-meanjs:before {
     content: "\f13d";
 }
-.wd-modulus:before {
+.wd-meteor:before {
     content: "\f13e";
 }
-.wd-mongodb:before {
+.wd-modulus:before {
     content: "\f13f";
 }
-.wd-mysql:before {
+.wd-mongodb:before {
     content: "\f140";
 }
-.wd-namecheap:before {
+.wd-mysql:before {
     content: "\f141";
 }
-.wd-nginx:before {
+.wd-namecheap:before {
     content: "\f142";
 }
-.wd-nodejs:before {
+.wd-nginx:before {
     content: "\f143";
 }
-.wd-oracle:before {
+.wd-nodejs:before {
     content: "\f144";
 }
-.wd-pakyow:before {
+.wd-oracle:before {
     content: "\f145";
 }
-.wd-phalcon:before {
+.wd-pakyow:before {
     content: "\f146";
 }
-.wd-phoenix:before {
+.wd-phalcon:before {
     content: "\f147";
 }
-.wd-php:before {
+.wd-phoenix:before {
     content: "\f148";
 }
-.wd-play:before {
+.wd-php:before {
     content: "\f149";
 }
-.wd-polymer:before {
+.wd-play:before {
     content: "\f14a";
 }
-.wd-postgresql:before {
+.wd-polymer:before {
     content: "\f14b";
 }
-.wd-purecss:before {
+.wd-postgresql:before {
     content: "\f14c";
 }
-.wd-pyramid:before {
+.wd-purecss:before {
     content: "\f14d";
 }
-.wd-python:before {
+.wd-pyramid:before {
     content: "\f14e";
 }
-.wd-r:before {
+.wd-python:before {
     content: "\f14f";
 }
-.wd-rackspace:before {
+.wd-r:before {
     content: "\f150";
 }
-.wd-rails:before {
+.wd-rackspace:before {
     content: "\f151";
 }
-.wd-react:before {
+.wd-rails:before {
     content: "\f152";
 }
-.wd-redux:before {
+.wd-react:before {
     content: "\f153";
 }
-.wd-ruby:before {
+.wd-redux:before {
     content: "\f154";
 }
-.wd-rust:before {
+.wd-ruby:before {
     content: "\f155";
 }
-.wd-sails:before {
+.wd-rust:before {
     content: "\f156";
 }
-.wd-snap:before {
+.wd-sails:before {
     content: "\f157";
 }
-.wd-socketio:before {
+.wd-snap:before {
     content: "\f158";
 }
-.wd-socketstream:before {
+.wd-socketio:before {
     content: "\f159";
 }
-.wd-spark:before {
+.wd-socketstream:before {
     content: "\f15a";
 }
-.wd-spock:before {
+.wd-spark:before {
     content: "\f15b";
 }
-.wd-spring:before {
+.wd-spock:before {
     content: "\f15c";
 }
-.wd-sqlite:before {
+.wd-spring:before {
     content: "\f15d";
 }
-.wd-squarespace:before {
+.wd-sqlite:before {
     content: "\f15e";
 }
-.wd-sugar:before {
+.wd-squarespace:before {
     content: "\f15f";
 }
-.wd-swift:before {
+.wd-sugar:before {
     content: "\f160";
 }
-.wd-symfony:before {
+.wd-swift:before {
     content: "\f161";
 }
-.wd-teslajs:before {
+.wd-symfony:before {
     content: "\f162";
 }
-.wd-tornado:before {
+.wd-teslajs:before {
     content: "\f163";
 }
-.wd-totaljs:before {
+.wd-tornado:before {
     content: "\f164";
 }
-.wd-turbogears:before {
+.wd-totaljs:before {
     content: "\f165";
 }
-.wd-uikit:before {
+.wd-turbogears:before {
     content: "\f166";
 }
-.wd-vaadin:before {
+.wd-uikit:before {
     content: "\f167";
 }
-.wd-vue:before {
+.wd-vaadin:before {
     content: "\f168";
 }
-.wd-webpy:before {
+.wd-vue:before {
     content: "\f169";
 }
-.wd-wordpress:before {
+.wd-webpack:before {
     content: "\f16a";
 }
-.wd-yesod:before {
+.wd-webpy:before {
     content: "\f16b";
 }
-.wd-yii:before {
+.wd-wordpress:before {
     content: "\f16c";
 }
-.wd-zend:before {
+.wd-yesod:before {
     content: "\f16d";
+}
+.wd-yii:before {
+    content: "\f16e";
+}
+.wd-zend:before {
+    content: "\f16f";
 }

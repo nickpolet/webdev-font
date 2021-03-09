@@ -2,7 +2,7 @@
 
 ![Header Image](assets/img/header.svg?raw=true)
 
-Icon font for popular web frameworks and web related technologies. 
+Icon font for popular web frameworks and web related technologies. Currently contains 110+ icons.
 
 
 ## [Show me the icons](http://nickpolet.github.io/webdev-font/)

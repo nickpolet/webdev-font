@@ -14,7 +14,9 @@
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@0.9.1/css/bulma.min.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css" integrity="sha512-HK5fgLBL+xu6dm/Ii3z4xhlSUyZgTT9tuc/hSrtw6uzJOvgRr2a9jyxxT1ely+B+xFAmJKVSTbpM/CuL7qxO8w==" crossorigin="anonymous" />
 
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/nickpolet/webdev-font/dist/webdev-font.min.css">
+    {{!-- <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/nickpolet/webdev-font/dist/webdev-font.min.css"> --}}
+    <link rel="stylesheet" href="./dist/webdev-font.min.css">
+    <link rel="stylesheet" href="./webdev-font.min.css">
 
     <style>
         body {
@@ -215,9 +217,16 @@
                         Icon font for popular web frameworks and web related technologies.
                     </p>
 
-                    <a class="button is-rounded is-dark has-text-weight-bold" href="#search-container">
-                        Show me the icons
-                    </a>
+                    <div class="columns is-mobile">
+                        <div class="column is-narrow">
+                            <a class="button is-rounded is-dark has-text-weight-bold" href="#search-container">
+                                Show me the icons
+                            </a>
+                        </div>
+                        <div class="column is-flex is-align-items-center">
+                            <i>110+ icons and counting...</i>
+                        </div>
+                    </div>
 
                     <br class="is-hidden-touch">
                     <br class="is-hidden-touch">
